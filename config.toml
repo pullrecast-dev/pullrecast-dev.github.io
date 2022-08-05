@@ -1,0 +1,32 @@
+baseURL = 'http://pullrecast.dev/'
+title = 'PullReCast'
+theme = "KeepIt"
+
+languageCode = "en"
+defaultContentLanguage = "pt"
+
+[params]
+    since = 2022
+    avatar = "/images/pullrecast.png" #comment it to use gravatar
+    socialShare = true
+    subtitle = "Podcast/talkshow bem humorado sobre tecnologia." # site description
+    keywords = "" # site keywords
+
+[params.social]
+    Youtubechannel = "UCzXJSnVtqPspNOwQvb4f6wg"
+    GitHub = "pullrecast-dev"
+    Twitter = "pullrecast"
+    Instagram = "pullrecast"
+
+[params.share]
+    Twitter = true
+    Facebook = true
+    #Reddit = true
+    Linkedin = true
+    #Pinterest = true
+    #HackerNews = true
+    #Mix = true
+    #Tumblr = true
+    #VKontakte = true
+    #Douban = true
+    #Weibo = true
