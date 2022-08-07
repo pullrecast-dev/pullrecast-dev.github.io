@@ -1,15 +1,15 @@
 baseURL = 'http://pullrecast.dev/'
-title = 'PullReCast'
+title = 'Pull Recast'
 theme = "KeepIt"
 
 languageCode = "en"
-defaultContentLanguage = "pt"
+defaultContentLanguage = "en"
 
 [params]
     since = 2022
-    avatar = "/images/pullrecast.png" #comment it to use gravatar
+    avatar = "/images/pullrecast-icon-color.png" #comment it to use gravatar
     socialShare = true
-    subtitle = "Podcast/talkshow bem humorado sobre tecnologia." # site description
+    subtitle = "Papos bem humorado sobre tecnologia." # site description
     keywords = "" # site keywords
 
 [params.social]
