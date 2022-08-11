@@ -1,0 +1,28 @@
+.link-font-awesome {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+
+.dark {
+  --green1: #00F7B5;
+  --green2: #87F5D7;
+  --blue1: #14BDFF;
+  --blue2:#1A35AD;
+  --blue3:#365AFF;
+}
+.dark\:bg-neutral-800 {
+  background-color: #1A35AD;
+}
+
+.dark\:text-white {
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.dark\:text-neutral-400 {
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}

@@ -1,32 +1,57 @@
 baseURL = 'http://pullrecast.dev/'
-title = 'Pull Recast'
-theme = "KeepIt"
+title = 'Pull reCast'
+theme = "lynx"
 
-languageCode = "en"
-defaultContentLanguage = "en"
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
 
-[params]
-    since = 2022
-    avatar = "/images/pullrecast-icon-color.png" #comment it to use gravatar
-    socialShare = true
-    subtitle = "Papos bem humorado sobre tecnologia." # site description
-    keywords = "" # site keywords
+[author]
+  name = "Pull reCast"
+  headline = "Papos bem humorado sobre tecnologia"
+  image = "color.png"
+  links = [
+    # { link = { href = "https://github.com/jpanther/lynx/blob/stable/README.md", text = "View the readme", icon = "github" } },
+    # { link = { href = "styles/", text = "All the link styles", target = "_self" } },
+    { youtube = "https://www.youtube.com/channel/UC4FvW-Q6kVLeZuvhGb4txrQ" },
+    { github = "https://github.com/pullrecast-dev" },
+    { instagram = "https://instagram.com/pullrecast" },
+    { twitter = "https://twitter.com/pullrecast" },
+    # { font-awesome = { href = "https://fontawes/ome.com/", text = "FontAwesome" } },
+  ]
 
-[params.social]
-    Youtubechannel = "UCzXJSnVtqPspNOwQvb4f6wg"
-    GitHub = "pullrecast-dev"
-    Twitter = "pullrecast"
-    Instagram = "pullrecast"
+[markup.highlight]
+  noClasses = false
 
-[params.share]
-    Twitter = true
-    Facebook = true
-    #Reddit = true
-    Linkedin = true
-    #Pinterest = true
-    #HackerNews = true
-    #Mix = true
-    #Tumblr = true
-    #VKontakte = true
-    #Douban = true
-    #Weibo = true
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true
+
+
+# languageCode = "en"
+# defaultContentLanguage = "en"
+
+# [params]
+#     since = 2022
+#     avatar = "/images/pullrecast-icon-color.png" #comment it to use gravatar
+#     socialShare = true
+#     subtitle = "Papos bem humorado sobre tecnologia." # site description
+#     keywords = "" # site keywords
+
+# [params.social]
+#     Youtubechannel = "UC4FvW-Q6kVLeZuvhGb4txrQ"
+#     GitHub = "pullrecast-dev"
+#     Twitter = "pullrecast"
+#     Instagram = "pullrecast"
+
+# [params.share]
+#     Twitter = true
+#     Facebook = true
+#     #Reddit = true
+#     Linkedin = true
+#     #Pinterest = true
+#     #HackerNews = true
+#     #Mix = true
+#     #Tumblr = true
+#     #VKontakte = true
+#     #Douban = true
+#     #Weibo = true
