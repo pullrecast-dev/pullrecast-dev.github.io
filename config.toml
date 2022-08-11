@@ -5,6 +5,9 @@ theme = "lynx"
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 
+[Params]
+  attribution = true
+
 [author]
   name = "Pull reCast"
   headline = "Papos bem humorado sobre tecnologia"
