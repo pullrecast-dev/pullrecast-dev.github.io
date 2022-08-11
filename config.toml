@@ -1,5 +1,5 @@
 baseURL = 'http://pullrecast.dev/'
-title = 'Pull Recast'
+title = 'Pull reCast'
 theme = "KeepIt"
 
 languageCode = "en"
@@ -13,7 +13,7 @@ defaultContentLanguage = "en"
     keywords = "" # site keywords
 
 [params.social]
-    Youtubechannel = "UCzXJSnVtqPspNOwQvb4f6wg"
+    Youtubechannel = "UC4FvW-Q6kVLeZuvhGb4txrQ"
     GitHub = "pullrecast-dev"
     Twitter = "pullrecast"
     Instagram = "pullrecast"
