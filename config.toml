@@ -1,5 +1,6 @@
 baseURL = 'http://pullrecast.dev/'
 title = 'Pull reCast'
+description = "Bate-papo quase semanal descontraído sobre tecnologia"
 theme = "lynx"
 
 enableEmoji = true
@@ -10,7 +11,7 @@ disableKinds = ["taxonomy", "term"]
 
 [author]
   name = "Pull reCast"
-  headline = "Papos bem humorado sobre tecnologia"
+  headline = "Bate-papo quase semanal descontraído sobre tecnologia, colaboração e inovação,<br>sempre com convidados externos e participações surpresa (durante o ao vivo),<br>além é claro, de demonstrações sem filtro de código!"
   image = "color.png"
   links = [
     # { link = { href = "https://github.com/jpanther/lynx/blob/stable/README.md", text = "View the readme", icon = "github" } },
