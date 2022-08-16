@@ -11,7 +11,7 @@ disableKinds = ["taxonomy", "term"]
 
 [author]
   name = "Pull reCast"
-  headline = "Bate-papo quase semanal descontraído sobre tecnologia, colaboração e inovação, sempre com convidados externos e participações surpresa (durante o ao vivo), além é claro, de demonstrações sem filtro de código!"
+  headline = "Bate-papo quase semanal descontraído sobre tecnologia, colaboração e inovação, sempre com convidados externos e participações surpresa (durante o ao vivo), além é claro, de demonstrações de código real!"
   image = "color.png"
   links = [
     # { link = { href = "https://github.com/jpanther/lynx/blob/stable/README.md", text = "View the readme", icon = "github" } },
