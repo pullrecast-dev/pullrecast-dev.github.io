@@ -15,17 +15,26 @@
   --blue2:#1A35AD;
   --blue3:#365AFF;
   --blur4: #040b34;
+  --blue5: #2745c9
 }
 .dark\:bg-neutral-800 {
   background-color: #040b34;
 }
 
 .dark\:text-white {
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(255 255 255);
 }
 
 .dark\:text-neutral-400 {
-  color: rgb(156 163 175 / var(--tw-text-opacity));
+  color: rgb(156 163 175);
+}
+
+.prose a {
+  color: #9ef0f0;
+}
+
+.prose a:hover {
+  background-color: #1A35AD;
 }
 
 .container {
