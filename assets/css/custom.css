@@ -15,14 +15,14 @@
   --blue2:#1A35AD;
   --blue3:#365AFF;
   --blur4: #040b34;
-  --blue5: #2745c9
+  --blue5: #2745c9;
 }
 .dark\:bg-neutral-800 {
   background-color: #040b34;
 }
 
-.dark\:text-white {
-  color: rgb(255 255 255);
+.dark\:text-white, .prose > p, .prose > h1, .prose > h2, .prose > h3 {
+  color: white;
 }
 
 .dark\:text-neutral-400 {
