@@ -6,6 +6,8 @@ theme = "lynx"
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 
+googleAnalytics = "G-Z6QZB89BXW"
+
 [Params]
   attribution = true
 
