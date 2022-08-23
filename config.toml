@@ -19,9 +19,9 @@ googleAnalytics = "G-Z6QZB89BXW"
     # { link = { href = "https://github.com/jpanther/lynx/blob/stable/README.md", text = "View the readme", icon = "github" } },
     # { link = { href = "styles/", text = "All the link styles", target = "_self" } },
     { youtube = "https://www.youtube.com/channel/UC4FvW-Q6kVLeZuvhGb4txrQ" },
-    { github = "https://github.com/pullrecast-dev" },
     { instagram = "https://instagram.com/pullrecast" },
     { twitter = "https://twitter.com/pullrecast" },
+    { github = "https://github.com/pullrecast-dev" }
     # { font-awesome = { href = "https://fontawes/ome.com/", text = "FontAwesome" } },
   ]
 
