@@ -11,3 +11,5 @@ description: "Bate-papo quase semanal descontraído sobre tecnologia"
 ### Epsódios
 
 [#1 Quem não quer ser um milionário com OpenSource?](/ep001)
+
+[#2 NoCode e o fim da carreira dos desenvolvedores](/ep002)

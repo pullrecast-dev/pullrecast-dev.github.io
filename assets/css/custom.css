@@ -8,6 +8,19 @@
   );
 }
 
+.link-anchorfm {
+  background: #5000b9;
+}
+
+.link-anchorfm svg {
+  color: white;
+}
+
+.link-spotify {
+  background: #1ed660;
+  /* color: white; */
+}
+
 .dark {
   --green1: #00F7B5;
   --green2: #87F5D7;
