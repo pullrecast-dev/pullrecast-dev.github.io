@@ -21,6 +21,15 @@
   /* color: white; */
 }
 
+.link-podcast {
+  background: linear-gradient(
+    180deg,
+    #d576f9,
+    #872ac3
+  );
+}
+
+
 .dark {
   --green1: #00F7B5;
   --green2: #87F5D7;
@@ -73,4 +82,8 @@
   .prose {
     width: 150%;
   }
+}
+
+.icon svg{
+  fill: white !important;
 }
