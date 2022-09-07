@@ -14,7 +14,7 @@ googleAnalytics = "G-Z6QZB89BXW"
 [author]
   name = "Pull reCast"
   headline = "Bate-papo quase semanal descontraído sobre tecnologia, colaboração e inovação, sempre com convidados externos e participações surpresa (durante o ao vivo), além é claro, de demonstrações de código real!"
-  image = "icon_white.jpeg"
+  image = "logo_site.png"
   links = [
     # { link = { href = "https://github.com/jpanther/lynx/blob/stable/README.md", text = "View the readme", icon = "github" } },
     # { link = { href = "styles/", text = "All the link styles", target = "_self" } },
