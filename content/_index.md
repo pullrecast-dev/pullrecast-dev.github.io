@@ -8,9 +8,11 @@ description: "Bate-papo quase semanal descontraído sobre tecnologia"
   <iframe class="responsive-iframe" src="https://www.youtube.com/embed/Qavyj7Cp2sc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-Último episódio: [#3 Agile, além da salvação?](/ep003)
+Próximo episódio: [#4 Eventos de tecnologia: Indo além de palestras?](/ep004)
 
 ## Episódios anteriores
+
+[#3 Agile, além da salvação?](/ep003)
 
 [#2 NoCode e o fim da carreira dos desenvolvedores](/ep002)
 
