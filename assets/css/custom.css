@@ -1,0 +1,90 @@
+.link-font-awesome {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+
+.link-anchorfm {
+  background: #5000b9;
+}
+
+.link-anchorfm svg {
+  color: white;
+}
+
+.link-spotify {
+  background: #1ed660;
+  /* color: white; */
+}
+
+.link-podcast {
+  background: linear-gradient(
+    180deg,
+    #d576f9,
+    #872ac3
+  );
+}
+
+
+.dark {
+  --green1: #00F7B5;
+  --green2: #87F5D7;
+  --blue1: #14BDFF;
+  --blue2:#1A35AD;
+  --blue3:#365AFF;
+  --blur4: #040b34;
+  --blue5: #2745c9;
+}
+.dark\:bg-neutral-800 {
+  /* background-color: #0043ce;  */
+  background-color: #002D9C; 
+}
+
+.dark\:text-white, .prose > p, .prose > h1, .prose > h2, .prose > h3 {
+  color: white;
+}
+
+.dark\:text-neutral-400 {
+  color: rgb(156 163 175);
+}
+
+.prose a {
+  color: #9ef0f0;
+}
+
+.prose a:hover {
+  background-color: #1A35AD;
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .prose {
+    width: 150%;
+  }
+}
+
+.icon svg{
+  fill: white !important;
+}

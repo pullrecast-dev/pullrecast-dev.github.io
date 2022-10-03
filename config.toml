@@ -1,0 +1,66 @@
+baseURL = "https://pullrecast.dev"
+title = 'Pull reCast'
+description = "Bate-papo quase semanal descontraído sobre tecnologia"
+theme = "lynx"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+googleAnalytics = "G-Z6QZB89BXW"
+
+[Params]
+  attribution = true
+
+[author]
+  name = "Pull reCast"
+  headline = "Bate-papo quase semanal descontraído sobre tecnologia, colaboração e inovação, sempre com convidados externos e participações surpresa (durante o ao vivo), além é claro, de demonstrações de código real!"
+  image = "logo_site.png"
+  links = [
+    # { link = { href = "https://github.com/jpanther/lynx/blob/stable/README.md", text = "View the readme", icon = "github" } },
+    # { link = { href = "styles/", text = "All the link styles", target = "_self" } },
+    { youtube = "https://www.youtube.com/channel/UC4FvW-Q6kVLeZuvhGb4txrQ" },
+    { spotify = { href = "https://open.spotify.com/show/5zHeJgaZsj9WCMXfJoCVmD", text = "Spotify" } },
+    { podcast = { href = "https://podcasts.apple.com/us/podcast/pull-recast/id1643158720", text = "Apple Podcasts" } },
+    { anchorfm = { href = "https://anchor.fm/pullrecast", text = "Anchor.fm" } },
+    { instagram = "https://instagram.com/pullrecast" },
+    { twitter = "https://twitter.com/pullrecast" },
+    { github = "https://github.com/pullrecast-dev" }
+    # { font-awesome = { href = "https://fontawes/ome.com/", text = "FontAwesome" } },
+  ]
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true
+
+
+# languageCode = "en"
+# defaultContentLanguage = "en"
+
+# [params]
+#     since = 2022
+#     avatar = "/images/pullrecast-icon-color.png" #comment it to use gravatar
+#     socialShare = true
+#     subtitle = "Papos bem humorado sobre tecnologia." # site description
+#     keywords = "" # site keywords
+
+# [params.social]
+#     Youtubechannel = "UC4FvW-Q6kVLeZuvhGb4txrQ"
+#     GitHub = "pullrecast-dev"
+#     Twitter = "pullrecast"
+#     Instagram = "pullrecast"
+
+# [params.share]
+#     Twitter = true
+#     Facebook = true
+#     #Reddit = true
+#     Linkedin = true
+#     #Pinterest = true
+#     #HackerNews = true
+#     #Mix = true
+#     #Tumblr = true
+#     #VKontakte = true
+#     #Douban = true
+#     #Weibo = true
