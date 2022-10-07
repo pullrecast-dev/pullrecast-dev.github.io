@@ -8,6 +8,19 @@
   );
 }
 
+.btn {
+  background: #0097ff;
+  color: white;
+}
+
+.btn a:hover {
+  background: #004d80;
+}
+
+iframe[title="YouTube Video"], div ~ h1 {
+  margin-top: 1em !important;
+}
+
 .link-anchorfm {
   background: #5000b9;
 }
@@ -18,7 +31,6 @@
 
 .link-spotify {
   background: #1ed660;
-  /* color: white; */
 }
 
 .link-podcast {

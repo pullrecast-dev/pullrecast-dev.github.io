@@ -1,0 +1,9 @@
+{{ $ref := .Get "href" }}
+{{ $target := "" }}
+{{ with $ref }}
+  {{ $target = "_blank" }}
+{{ end }}
+{{ with .Get "relref" }}
+  {{ $ref = relref $ . }}
+{{ end }}
+<a {{ with $ref }}href="{{.}}" {{ end }} {{ with $target }} target="{{.}}"{{ if eq $target "_blank" }} rel="noreferrer"{{ end }}{{ end }} class="btn link sm:px-24 min-w-full py-2 mb-3 text-lg rounded text-center{{ with .Get "class" }} {{ . }}{{ end }}">{{- .Inner | safeHTML -}}</a>
