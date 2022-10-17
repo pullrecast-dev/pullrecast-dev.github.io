@@ -6,14 +6,16 @@ description: "Bate-papo quase semanal descontraído sobre tecnologia"
 
 ## Próximo episódio: 
 
-#### Sexta-feita 07 de Outrubro 16h30
-[#4 Comunidades: O que são? Onde vivem? Do que se alimentam?](/ep004)
+#### Quinta-feita 20 de Outrubro 19h00
+[#5 Quantumania: computação quântica pode salvar o mundo?](/ep005)
 
-{{<button href="https://www.sympla.com.br/evento-online/pull-recast-4-comunidades-com-yara-mascarenhas/1744221">}}Inscreva-se{{</button>}}
+<!-- {{<button href="https://www.sympla.com.br/evento-online/pull-recast-4-comunidades-com-yara-mascarenhas/1744221">}}Inscreva-se{{</button>}} -->
 
-{{< youtube XKzsiiylNas >}}
+{{< youtube ETPXYkN0G9I >}}
 
 ## Episódios anteriores
+
+[#4 Comunidades: O que são? Onde vivem? Do que se alimentam?](/ep004)
 
 [#3 Agile, além da salvação?](/ep003)
 
