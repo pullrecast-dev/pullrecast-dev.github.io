@@ -6,7 +6,7 @@ description: "Bate-papo quase semanal descontraído sobre tecnologia"
 
 ## Próximo episódio: 
 
-#### Quinta-feita 20 de Outrubro 19h00
+#### Sexta-feita 21 de Outrubro às 17h30
 [#5 Quantumania: computação quântica pode salvar o mundo?](/ep005)
 
 <!-- {{<button href="https://www.sympla.com.br/evento-online/pull-recast-4-comunidades-com-yara-mascarenhas/1744221">}}Inscreva-se{{</button>}} -->
