@@ -4,7 +4,7 @@ description: "Bate-papo quase semanal descontraído sobre tecnologia"
 
 <p class="text-md text-neutral-500 dark:text-neutral-400">Apresentado por <a href="http://alanbraz.com.br" target="_blank">Alan Braz</a> e <a href="https://www.instagram.com/matbiit/" target="_blank">Matheus Bitencourt</a>.</p>
 
-## Próximo episódio: 
+## Último episódio: 
 
 #### Sexta-feita 21 de Outrubro às 17h30
 [#5 Quantumania: computação quântica pode salvar o mundo?](/ep005)
