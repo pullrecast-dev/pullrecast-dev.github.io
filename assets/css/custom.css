@@ -100,3 +100,8 @@ iframe[title="YouTube Video"], div ~ h1 {
 .icon svg{
   fill: white !important;
 }
+
+.text-4xl {
+  font-size: 3rem;
+  line-height: 3.5rem;
+}

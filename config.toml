@@ -19,12 +19,15 @@ googleAnalytics = "G-Z6QZB89BXW"
     # { link = { href = "https://github.com/jpanther/lynx/blob/stable/README.md", text = "View the readme", icon = "github" } },
     # { link = { href = "styles/", text = "All the link styles", target = "_self" } },
     { youtube = "https://www.youtube.com/channel/UC4FvW-Q6kVLeZuvhGb4txrQ" },
-    { spotify = { href = "https://open.spotify.com/show/5zHeJgaZsj9WCMXfJoCVmD", text = "Spotify" } },
-    { podcast = { href = "https://podcasts.apple.com/us/podcast/pull-recast/id1643158720", text = "Apple Podcasts" } },
-    { anchorfm = { href = "https://anchor.fm/pullrecast", text = "Anchor.fm" } },
     { instagram = "https://instagram.com/pullrecast" },
     { twitter = "https://twitter.com/pullrecast" },
+    { spotify = { href = "https://open.spotify.com/show/5zHeJgaZsj9WCMXfJoCVmD", text = "Spotify" } },
+    { podcast = { href = "https://podcasts.apple.com/us/podcast/pull-recast/id1643158720", text = "Apple Podcasts" } },
+    { google = { href = "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9iNDExYThjOC9wb2RjYXN0L3Jzcw", text = "Google Podcasts" } },
+    { anchorfm = { href = "https://anchor.fm/pullrecast", text = "Anchor.fm" } },
     { github = "https://github.com/pullrecast-dev" }
+
+    
     # { font-awesome = { href = "https://fontawes/ome.com/", text = "FontAwesome" } },
   ]
 
