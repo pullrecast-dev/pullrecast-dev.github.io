@@ -7,3 +7,5 @@ description: "Bate-papo quase semanal descontraído sobre tecnologia"
 #### Primeira temporada
 
 [#1 OpenSource](/ep001) [#2 NoCode](/ep002) [#3 Agile](/ep003) [#4 Comunidades](/ep004) [#5 Quantumania](/ep005)
+
+{{< youtube SOWcoOxyUxc >}}
