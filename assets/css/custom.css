@@ -42,18 +42,19 @@ iframe[title="YouTube Video"], div ~ h1 {
 }
 
 
-.dark {
-  --green1: #00F7B5;
-  --green2: #87F5D7;
-  --blue1: #14BDFF;
-  --blue2:#1A35AD;
-  --blue3:#365AFF;
-  --blur4: #040b34;
-  --blue5: #2745c9;
-}
+:root {
+  --green1: #70C2DB;
+  --green2: #9bffff;
+  --blue1: #03061F;
+  --blue2:#0B1756;
+  --blue3:#0F2F7D;
+  --blue4: #3976DB;
+  --blue5: #79bffe;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
 .dark\:bg-neutral-800 {
   /* background-color: #0043ce;  */
-  background-color: #002D9C; 
+  /* background-color: #002D9C;  */
+  background-color: var(--blue1);
 }
 
 .dark\:text-white, .prose > p, .prose > h1, .prose > h2, .prose > h3 {
@@ -61,15 +62,16 @@ iframe[title="YouTube Video"], div ~ h1 {
 }
 
 .dark\:text-neutral-400 {
-  color: rgb(156 163 175);
+  color: var(--green1);
 }
 
 .prose a {
-  color: #9ef0f0;
+  color: var(--green2);
 }
 
 .prose a:hover {
-  background-color: #1A35AD;
+  background-color: var(--green2);
+  color: var(--blue4);
 }
 
 .container {
@@ -105,3 +107,4 @@ iframe[title="YouTube Video"], div ~ h1 {
   font-size: 3rem;
   line-height: 3.5rem;
 }
+
