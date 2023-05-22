@@ -4,9 +4,13 @@ description: "Bate-papo semanal descontraído com dois líderes técnicos apaixo
 
 <p class="text-md text-neutral-500 dark:text-neutral-400">Apresentado por {{<link href="http://alanbraz.com.br">}}Alan Braz{{</link>}} e {{<link href="https://www.instagram.com/matbiit/">}}Matheus Bitencourt{{</link>}}.</p>
 
-### Se inscreva no {{<link href="http://canal.pullrecast.dev">}}canal.pullrecast.dev{{</link>}}
+## Se inscreva no {{<link href="http://canal.pullrecast.dev">}}canal.pullrecast.dev{{</link>}}
 
 {{< youtube lD4jngLc_4k >}}
+
+### Temporada 2023
+
+{{<link href="https://youtu.be/L44aPJ-jtCs">}}Lançamento{{</link>}} {{<link href="https://youtu.be/rSJ5Hvq-Pt0">}}#6 Red Hat{{</link>}} {{<link href="https://youtu.be/xiXUxe2R5fs">}}#7 Tech Recruiter{{</link>}} {{<link href="https://youtu.be/a374wK5_6v4">}}#8 Arquiteto MongoDB{{</link>}}  {{<link href="https://youtu.be/lD4jngLc_4k">}}#9 Java Champion{{</link>}}
 
 #### Temporada piloto
 
