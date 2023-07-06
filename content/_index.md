@@ -1,17 +1,16 @@
 ---
-description: "Bate-papo semanal descontraído com dois líderes técnicos apaixonados por tecnologia, colaboração e inovação (e um pouco de enrolação), que se inspiraram no modelo das contribuições feitas atrás de um \"pull request\" em projetos open-source , para contribuir com a comunidade técnica convidando expoentes em diversas áreas para compartilhar suas experiências pessoais bem (e muitas vezes nem tanto) sucedidas, com objetivo de ajudar os profissionais das mais diversas carreiras de tecnologia a alavancarem sua [eminencia-tecnica]"
+description: "Bate-papo semanal descontraído com dois líderes técnicos apaixonados por tecnologia, colaboração e inovação (e um pouco de enrolação), que se inspiraram no modelo das contribuições feitas atrás de um \"pull request\" em projetos open-source , para contribuir com a comunidade técnica convidando expoentes em diversas áreas para compartilhar suas experiências pessoais bem (e muitas vezes nem tanto) sucedidas, com objetivo de ajudar os profissionais das mais diversas carreiras de tecnologia a alavancarem sua eminência técnica"
 ---
 
 <p class="text-md text-neutral-500 dark:text-neutral-400">Apresentado por {{<link href="http://alanbraz.com.br">}}Alan Braz{{</link>}} e {{<link href="https://www.instagram.com/matbiit/">}}Matheus Bitencourt{{</link>}}.</p>
 
 ## Se inscreva no {{<link href="http://canal.pullrecast.dev">}}canal.pullrecast.dev{{</link>}}
 
-## Inscreva-se no Tech Nights {{<link href="https://www.sympla.com.br/evento/tech-nights-6-desmistificando-hybrid-cloud/2034898">}}pelo Sympla{{</link>}}
+## Inscreva-se na nossa sessão especial sobre carreira em tecnologia na nova era da IA generativa {{<link href="https://www.meetup.com/bluetalks/events/294587587">}}pelo Meetup{{</link>}}
+
+{{< youtube GFYlP_E0iFU >}}
 
 O que é [Eminência Técnica](eminencia-tecnica)?
-
-{{< youtube 1lkC6kJIZrU >}}
-
 
 <!-- ### Temporada 2023
 
