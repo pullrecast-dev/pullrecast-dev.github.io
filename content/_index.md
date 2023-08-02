@@ -4,11 +4,13 @@ description: "Bate-papo semanal descontraído com dois líderes técnicos apaixo
 
 <p class="text-md text-neutral-500 dark:text-neutral-400">Apresentado por {{<link href="http://alanbraz.com.br">}}Alan Braz{{</link>}} e {{<link href="https://www.instagram.com/matbiit/">}}Matheus Bitencourt{{</link>}}.</p>
 
-## Se inscreva no {{<link href="http://canal.pullrecast.dev">}}canal.pullrecast.dev{{</link>}}
+## Se inscreva no {{<link href="https://canal.pullrecast.dev">}}canal.pullrecast.dev{{</link>}}
 
-## Inscreva-se na nossa sessão especial sobre carreira em tecnologia na nova era da IA generativa {{<link href="https://www.meetup.com/bluetalks/events/294587587">}}pelo Meetup{{</link>}}
+{{<link href="/images/resumo-ia.png">}}Baixe o nosso slide de resumo e história da Inteligência Artificial!{{</link>}}
 
-{{< youtube GFYlP_E0iFU >}}
+<!-- ## Inscreva-se na nossa sessão especial sobre carreira em tecnologia na nova era da IA generativa {{<link href="https://www.meetup.com/bluetalks/events/294587587">}}pelo Meetup{{</link>}} -->
+
+{{< youtube HkbziNDGX74 >}}
 
 O que é [Eminência Técnica](eminencia-tecnica)?
 
