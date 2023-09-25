@@ -23,6 +23,7 @@ googleAnalytics = "G-Z6QZB89BXW"
     { youtube = { href ="https://www.youtube.com/@pullrecast?sub_confirmation=1", text="Youtube" } },
     { instagram = "https://instagram.com/pullrecast" },
     { spotify = { href = "https://open.spotify.com/show/5zHeJgaZsj9WCMXfJoCVmD", text = "Spotify" } },
+    { linkedin = { href="https://www.linkedin.com/groups/9509593/", text = "Grupo do Linkedin"} },
     { podcast = { href = "https://podcasts.apple.com/us/podcast/pull-recast/id1643158720", text = "Apple Podcasts" } },
     { google = { href = "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9iNDExYThjOC9wb2RjYXN0L3Jzcw", text = "Google Podcasts" } },
     { anchorfm = { href = "https://anchor.fm/pullrecast", text = "Anchor.fm" } },

@@ -10,7 +10,7 @@ description: "Bate-papo semanal descontraído com dois líderes técnicos apaixo
 
 <!-- ## Inscreva-se na nossa sessão especial sobre carreira em tecnologia na nova era da IA generativa {{<link href="https://www.meetup.com/bluetalks/events/294587587">}}pelo Meetup{{</link>}} -->
 
-{{< youtube HkbziNDGX74 >}}
+{{< youtube ZriVru78B40 >}}
 
 O que é [Eminência Técnica](eminencia-tecnica)?
 
