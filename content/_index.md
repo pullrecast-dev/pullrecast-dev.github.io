@@ -1,5 +1,6 @@
 ---
-description: "Bate-papo semanal descontraído com dois líderes técnicos apaixonados por tecnologia, colaboração e inovação (e um pouco de enrolação), que se inspiraram no modelo das contribuições feitas atrás de um \"pull request\" em projetos open-source , para contribuir com a comunidade técnica convidando expoentes em diversas áreas para compartilhar suas experiências pessoais bem (e muitas vezes nem tanto) sucedidas, com objetivo de ajudar os profissionais das mais diversas carreiras de tecnologia a alavancarem sua eminência técnica"
+description: "Desenvolvendo sua Eminência Técnica"
+temp: "Bate-papo semanal descontraído com dois líderes técnicos apaixonados por tecnologia, colaboração e inovação (e um pouco de enrolação), que se inspiraram no modelo das contribuições feitas atrás de um \"pull request\" em projetos open-source , para contribuir com a comunidade técnica convidando expoentes em diversas áreas para compartilhar suas experiências pessoais bem (e muitas vezes nem tanto) sucedidas, com objetivo de ajudar os profissionais das mais diversas carreiras de tecnologia a alavancarem sua eminência técnica"
 ---
 
 <p class="text-md text-neutral-500 dark:text-neutral-400">Apresentado por {{<link href="http://alanbraz.com.br">}}Alan Braz{{</link>}} e {{<link href="https://www.instagram.com/matbiit/">}}Matheus Bitencourt{{</link>}}.</p>
@@ -10,7 +11,7 @@ description: "Bate-papo semanal descontraído com dois líderes técnicos apaixo
 
 <!-- ## Inscreva-se na nossa sessão especial sobre carreira em tecnologia na nova era da IA generativa {{<link href="https://www.meetup.com/bluetalks/events/294587587">}}pelo Meetup{{</link>}} -->
 
-{{< youtube ZriVru78B40 >}}
+{{< youtube id="EBis9aTsHio?start=33740" autoplay="false" >}}
 
 O que é [Eminência Técnica](eminencia-tecnica)?
 

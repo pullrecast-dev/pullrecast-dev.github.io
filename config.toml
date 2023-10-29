@@ -17,7 +17,8 @@ googleAnalytics = "G-Z6QZB89BXW"
 
 [author]
   name = "Pull reCast"
-  headline = "Bate-papo semanal descontraído com dois líderes técnicos apaixonados por tecnologia, colaboração e inovação, que se inspiraram no modelo das contribuições feitas atrás de um \"pull request\" em projetos open-source, para contribuir com a comunidade técnica convidando expoentes em diversas áreas para compartilhar suas experiências pessoais bem (e muitas vezes nem tanto) sucedidas, com objetivo de ajudar os profissionais das mais diversas carreiras de tecnologia a alavancarem sua eminência técnica!"
+  headline = "Desenvolvendo sua Eminência Técnica"
+  # headline = "Bate-papo semanal descontraído com dois líderes técnicos apaixonados por tecnologia, colaboração e inovação, que se inspiraram no modelo das contribuições feitas atrás de um \"pull request\" em projetos open-source, para contribuir com a comunidade técnica convidando expoentes em diversas áreas para compartilhar suas experiências pessoais bem (e muitas vezes nem tanto) sucedidas, com objetivo de ajudar os profissionais das mais diversas carreiras de tecnologia a alavancarem sua eminência técnica!"
   image = "neon.png"
   links = [
     { youtube = { href ="https://www.youtube.com/@pullrecast?sub_confirmation=1", text="Youtube" } },
@@ -28,7 +29,7 @@ googleAnalytics = "G-Z6QZB89BXW"
     { google = { href = "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9iNDExYThjOC9wb2RjYXN0L3Jzcw", text = "Google Podcasts" } },
     { anchorfm = { href = "https://anchor.fm/pullrecast", text = "Anchor.fm" } },
     { github = "https://github.com/pullrecast-dev" },
-    { twitter = "https://twitter.com/pullrecast" }
+    # { twitter = "https://twitter.com/pullrecast" }
   ]
 
 [markup.highlight]
