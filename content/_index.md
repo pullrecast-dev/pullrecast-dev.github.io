@@ -1,19 +1,19 @@
 ---
-description: "Desenvolvendo sua Eminência Técnica"
-temp: "Bate-papo semanal descontraído com dois líderes técnicos apaixonados por tecnologia, colaboração e inovação (e um pouco de enrolação), que se inspiraram no modelo das contribuições feitas atrás de um \"pull request\" em projetos open-source , para contribuir com a comunidade técnica convidando expoentes em diversas áreas para compartilhar suas experiências pessoais bem (e muitas vezes nem tanto) sucedidas, com objetivo de ajudar os profissionais das mais diversas carreiras de tecnologia a alavancarem sua eminência técnica"
+description: "Destravando sua Carreira Técnica e os Negócios com Inteligência Artificial"
+temp: "Bate-papo descontraído com dois líderes técnicos apaixonados por tecnologia, colaboração e inovação (e um pouco de enrolação), que se inspiraram no modelo das contribuições feitas atrás de um \"pull request\" em projetos open-source , para contribuir com a comunidade técnica convidando expoentes em diversas áreas para compartilhar suas experiências pessoais bem (e muitas vezes nem tanto) sucedidas, com objetivo de ajudar os profissionais das mais diversas carreiras de tecnologia a alavancarem sua eminência técnica"
 ---
 
-<p class="text-md text-neutral-500 dark:text-neutral-400">Apresentado por {{<link href="http://alanbraz.com.br">}}Alan Braz{{</link>}} e {{<link href="https://www.instagram.com/matbiit/">}}Matheus Bitencourt{{</link>}}.</p>
+<p class="text-md text-neutral-500 dark:text-neutral-400">Apresentado por {{<link href="http://alanbraz.com.br">}}Alan Braz{{</link>}} e {{<link href="https://www.instagram.com/matbiit/">}}Matheus Bitencourt{{</link>}}</p>
 
-## Se inscreva no {{<link href="https://canal.pullrecast.dev">}}canal.pullrecast.dev{{</link>}}
+<!-- ## Se inscreva no {{<link href="https://canal.pullrecast.dev">}}canal.pullrecast.dev{{</link>}} -->
 
-{{<link href="/images/resumo-ia.png">}}Baixe o nosso slide de resumo e história da Inteligência Artificial!{{</link>}}
+<!-- {{<link href="/images/resumo-ia.png">}}Baixe o nosso slide de resumo e história da Inteligência Artificial!{{</link>}} -->
 
 <!-- ## Inscreva-se na nossa sessão especial sobre carreira em tecnologia na nova era da IA generativa {{<link href="https://www.meetup.com/bluetalks/events/294587587">}}pelo Meetup{{</link>}} -->
 
-{{< youtube id="EBis9aTsHio?start=33740" autoplay="false" >}}
+{{< youtube id="Vw2op3UHhjM?start=446" autoplay="false" >}}
 
-O que é [Eminência Técnica](eminencia-tecnica)?
+<!-- O que é [Eminência Técnica](eminencia-tecnica)? -->
 
 <!-- ### Temporada 2023
 
