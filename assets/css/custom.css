@@ -8,6 +8,20 @@
   );
 }
 
+.link-loja {
+  /* background: rgb(54, 51, 189); */
+  background: linear-gradient(
+    90deg,
+    /* #CB2700 0%, */
+    #03C3F2 0%,
+    #5a07d0 100%
+  );
+}
+
+h2 {
+  margin-top: 1em !important;
+}
+
 .btn {
   background: #0097ff;
   color: white;
@@ -30,7 +44,19 @@ iframe[title="YouTube Video"], div ~ h1 {
 }
 
 .link-spotify {
-  background: #1ed660;
+  background: linear-gradient(
+    90deg,
+    #1ed660,
+    #086e2d
+  );
+}
+
+.link-youtube {
+  background: linear-gradient(
+    90deg,
+    #ff0000,
+    #b60303
+  );
 }
 
 .link-podcast {
@@ -54,7 +80,7 @@ iframe[title="YouTube Video"], div ~ h1 {
 .dark\:bg-neutral-800 {
   /* background-color: #0043ce;  */
   /* background-color: #002D9C;  */
-  background-color: var(--blue1);
+  background-color: #004CE2; /*var(--blue1);*/
 }
 
 .dark\:text-white, .prose > p, .prose > h1, .prose > h2, .prose > h3 {

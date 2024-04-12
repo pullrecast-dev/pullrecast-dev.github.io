@@ -19,8 +19,9 @@ googleAnalytics = "G-Z6QZB89BXW"
   name = "PullreCast"
   headline = "Destravando sua Carreira Técnica e os Negócios com Inteligência Artificial"
   # headline = "Bate-papo descontraído com dois líderes técnicos apaixonados por tecnologia, colaboração e inovação, que se inspiraram no modelo das contribuições feitas atrás de um \"pull request\" em projetos open-source, para contribuir com a comunidade técnica convidando expoentes em diversas áreas para compartilhar suas experiências pessoais bem (e muitas vezes nem tanto) sucedidas, com objetivo de ajudar os profissionais das mais diversas carreiras de tecnologia a alavancarem sua eminência técnica!"
-  image = "neon.png"
+  image = "branco.png"
   links = [
+    { loja = { href = "https://montink.com/camisetas-generativas?cat%5B71126%5D=71126", text = "Loja de Camisetas" } },
     { youtube = { href ="https://www.youtube.com/@pullrecast?sub_confirmation=1", text="Youtube" } },
     { instagram = "https://instagram.com/pullrecast" },
     { spotify = { href = "https://open.spotify.com/show/5zHeJgaZsj9WCMXfJoCVmD", text = "Spotify" } },

@@ -11,7 +11,9 @@ temp: "Bate-papo descontraído com dois líderes técnicos apaixonados por tecno
 
 <!-- ## Inscreva-se na nossa sessão especial sobre carreira em tecnologia na nova era da IA generativa {{<link href="https://www.meetup.com/bluetalks/events/294587587">}}pelo Meetup{{</link>}} -->
 
-{{< youtube id="Vw2op3UHhjM?start=446" autoplay="false" >}}
+<!-- {{< youtube id="Vw2op3UHhjM?start=446" autoplay="false" >}} -->
+
+{{< youtube id="8AnH1FZvSdU" >}}
 
 <!-- O que é [Eminência Técnica](eminencia-tecnica)? -->
 
