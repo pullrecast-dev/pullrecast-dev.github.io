@@ -4,3 +4,9 @@
 [submodule "themes/lynx"]
 	path = themes/lynx
 	url = https://github.com/jpanther/lynx.git
+[submodule "themes/piko"]
+	path = themes/piko
+	url = https://github.com/heksagonnet/piko.git
+[submodule "themes/minimal_marketing"]
+	path = themes/minimal_marketing
+	url = https://github.com/letItCurl/minimal_marketing.git

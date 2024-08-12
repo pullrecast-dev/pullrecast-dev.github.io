@@ -1,29 +1,39 @@
-# Mentoria
+# Mentoria PotencializAI!
 
-<!-- Mentoria:
+IA é o novo Excel! 
+Você precisa saber usar para conseguir a tão sonhada vaga/promoção ou não ser demitido!
 
-- todas profissoes vao ser impactadas por IA
+Em um mundo em total transformação não se fala de outra coisa: 
+- a IA irá roubar o meu emprego? 
+- Como ser mais produtivo? 
 
-- quem se adaptar mais rápido vai ter vantagem
+Pois bem, desde o lançamento do ChatGPT e das IAs Generativas, vivemos uma evolução drásticas em todas as profissões!
 
-- apresentar teoria e ferramentas - palestras, technights, CRI, 
+**Profissões serão substituídas por IA? Com certeza! Outras serão criadas? Não tenha dúvidas!**
 
-- como aplicar AI no dia-a-dia das atividades
+Mas o maior receio que todo o profissional deveria ter é: não ser substituído por IA, mas sim por alguém que saiba usar o melhor dela no seu dia a dia!
 
-- dar 1h de presente nas palestras
+> Ah mas eu não sou de TI, como eu faço?
 
-- brinde de 30m por compra de produto
+> Eu queria muito mudar de carreira e surfar esse boom de IA!
+ 
+> Como avançar e conseguir minha promoção?
+ 
+> Queria usar IA para alavancar minha carreira/negócio!
 
-Acelerar sua carreira com IA na prática
+Essas e outras frases são as que mais ouvimos com frequência aqui no Pull reCast, por isso, resolvemos te ajudar a sair do outro lado! 
 
-- traduzir a teoria e quais ferramentas se aplicam no seu caso real
+### Lançamos as mentorias PotencializAI: com um modelo único, criamos um plano de trabalho especializado e, principalmente, personalizado alinhado à sua necessidade!
 
-Conteúdos:
+É de TI e quer avançar na sua carreira? Podemos te ajudar!
 
-- demos
+Não é de TI e quer entrar na área? Conta com a gente!
 
-- cases práticos de profissionais aplicando IA -->
+IA é algo muito distante e você queria aplicar na sua realidade? Será um prazer te ajudar!
 
-Agende uma conversa para começar a turbinar a sua carreira e as tarefas diárias do seu trabalho com Inteligência Artificial!
+**Ficou interessado? Quer dar um próximo passo em sua carreira? Então entre em contato e venha logo potencializar a sua carreira com IA!**
 
-<a href="mailto:mentoria@pullrecast.dev?subject=Agendar para mentoria de IA">Envie um e-mail aqui</a>
+Nos vemos no próximo episódio, ou melhor, na próxima mentoria!
+
+<a href="mailto:mentoria@pullrecast.dev?subject=Agendar para mentoria de IA">Agende uma conversa para começar a turbinar a sua carreira e as tarefas diárias do seu trabalho com Inteligência Artificial!
+</a>
