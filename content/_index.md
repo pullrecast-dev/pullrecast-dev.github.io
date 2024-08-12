@@ -1,5 +1,5 @@
 ---
-description: "Destravando sua Carreira Técnica e os Negócios com Inteligência Artificial"
+description: "Potencializa sua Carreira Técnica e os Negócios com Inteligência Artificial"
 temp: "Bate-papo descontraído com dois líderes técnicos apaixonados por tecnologia, colaboração e inovação (e um pouco de enrolação), que se inspiraram no modelo das contribuições feitas atrás de um \"pull request\" em projetos open-source , para contribuir com a comunidade técnica convidando expoentes em diversas áreas para compartilhar suas experiências pessoais bem (e muitas vezes nem tanto) sucedidas, com objetivo de ajudar os profissionais das mais diversas carreiras de tecnologia a alavancarem sua eminência técnica"
 ---
 
