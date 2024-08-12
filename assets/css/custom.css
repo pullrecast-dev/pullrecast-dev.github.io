@@ -18,6 +18,12 @@
   );
 }
 
+.link-mentoria {
+  color: #020929;
+  background: #60bdf8;
+  font-weight: bold;
+}
+
 h2 {
   margin-top: 1em !important;
 }
@@ -76,11 +82,14 @@ iframe[title="YouTube Video"], div ~ h1 {
   --blue3:#0F2F7D;
   --blue4: #3976DB;
   --blue5: #79bffe;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+  font-family:'IBM Plex Sans', Tahoma, Geneva, Verdana, sans-serif}
 .dark\:bg-neutral-800 {
   /* background-color: #0043ce;  */
   /* background-color: #002D9C;  */
-  background-color: #004CE2; /*var(--blue1);*/
+  /* background-color: #004CE2; var(--blue1); */
+  /* background-image: linear-gradient(90deg, rgba(96,189,248,1) 0%, rgba(2,9,41,1) 30%, rgba(2,9,41,1) 70%, rgba(96,189,248,1) 100%); */
+  background-image: linear-gradient(90deg, rgba(2,9,41,1) 0%, rgba(96,189,248, 0.3) 100%);
+
 }
 
 .dark\:text-white, .prose > p, .prose > h1, .prose > h2, .prose > h3 {

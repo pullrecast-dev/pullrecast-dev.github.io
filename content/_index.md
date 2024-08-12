@@ -13,7 +13,7 @@ temp: "Bate-papo descontraído com dois líderes técnicos apaixonados por tecno
 
 <!-- {{< youtube id="Vw2op3UHhjM?start=446" autoplay="false" >}} -->
 
-{{< youtube id="8AnH1FZvSdU" >}}
+{{< youtube id="9enGb27gdc8" >}}
 
 <!-- O que é [Eminência Técnica](eminencia-tecnica)? -->
 
