@@ -13,7 +13,11 @@ temp: "Bate-papo descontraído com dois líderes técnicos apaixonados por tecno
 
 <!-- {{< youtube id="Vw2op3UHhjM?start=446" autoplay="false" >}} -->
 
-{{< youtube id="9enGb27gdc8" >}}
+{{< youtube id="25faAfKp6LY" >}}
+
+### Quer saber como colocar IA na sua carreira?
+
+Entre na nossa comunidade do WhatsApp,<br>fale com a gente e conheça nossos programas de mentoria!
 
 <!-- O que é [Eminência Técnica](eminencia-tecnica)? -->
 

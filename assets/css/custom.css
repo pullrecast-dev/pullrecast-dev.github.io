@@ -20,8 +20,13 @@
 
 .link-mentoria {
   color: #020929;
-  background: #60bdf8;
   font-weight: bold;
+  background: linear-gradient(
+    90deg,
+    /* #CB2700 0%, */
+    #60bdf8 30%,
+    #4a62cf 100%
+  );
 }
 
 h2 {
