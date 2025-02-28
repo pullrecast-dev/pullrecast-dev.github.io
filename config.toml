@@ -24,7 +24,7 @@ googleAnalytics = "G-Z6QZB89BXW"
   links = [
     { whatsapp = { href="https://link.pullrecast.dev/wa", text="Comunidade no WhatsApp"} },
     { mentoria = { href = "/mentoria", text = "Mentoria PotencializAI" } },
-    { loja = { href = "https://reserva.ink/401037", text = "Loja de Camisetas Reserva" } },
+    { loja = { href = "https://reserva.ink/pullrecast", text = "Loja de Camisetas Reserva" } },
     { youtube = { href ="https://www.youtube.com/@pullrecast?sub_confirmation=1", text="Youtube" } },
     { instagram = "https://instagram.com/pullrecast" },
     { spotify = { href = "https://open.spotify.com/show/5zHeJgaZsj9WCMXfJoCVmD", text = "Spotify" } },
