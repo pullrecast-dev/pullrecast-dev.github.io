@@ -11,11 +11,11 @@ enableRobotsTXT = true
 googleAnalytics = "G-Z6QZB89BXW"
 
 
-[Params]
+[params]
   attribution = true
   keywords = "podcast, líder técnico, liderança técnica, tecnologia, colaboração, inovação, open-source, comunidade, comunidade técnica"
 
-[author]
+[params.author]
   name = "PullreCast"
   headline = "Potenciaze sua carreira com Inteligência Artificial"
   # headline = "Destravando sua Carreira Técnica e os Negócios com Inteligência Artificial"
