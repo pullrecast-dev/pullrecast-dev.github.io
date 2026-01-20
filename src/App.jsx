@@ -3,7 +3,7 @@ import { useEffect, useMemo, useState } from "react";
 
 const seasonData = {
   s1: {
-    label: "Temporada 1",
+    label: "Temporada 1 (2022-2023)",
     platform: "YouTube • Videocast",
     description: "21 episódios com convidados e cases de carreira.",
     cta: {
@@ -46,6 +46,11 @@ const seasonData = {
         url: "https://www.youtube.com/watch?v=qDB_d4fnTP4&list=PLvTYEo3BhTV7Vc5UwHDemwZBEWxFTtANK",
       },
       {
+        title:
+          "Pull reCast #14 • Sérgio Gama, CTO da GFT Technology - A revolução da IA generativa (parte 1)",
+        url: "https://www.youtube.com/watch?v=2YAvUBoz7jg&list=PLvTYEo3BhTV7Vc5UwHDemwZBEWxFTtANK",
+      },
+      {
         title: "Pull reCast #13 • Felipe Prado, Hacker Ético há 23 anos",
         url: "https://www.youtube.com/watch?v=uaCA9x21Uds&list=PLvTYEo3BhTV7Vc5UwHDemwZBEWxFTtANK",
       },
@@ -81,11 +86,6 @@ const seasonData = {
         url: "https://www.youtube.com/watch?v=rSJ5Hvq-Pt0&list=PLvTYEo3BhTV7Vc5UwHDemwZBEWxFTtANK",
       },
       {
-        title:
-          "Pull reCast #14 • Sérgio Gama, CTO da GFT Technology - A revolução da IA generativa (parte 1)",
-        url: "https://www.youtube.com/watch?v=2YAvUBoz7jg&list=PLvTYEo3BhTV7Vc5UwHDemwZBEWxFTtANK",
-      },
-      {
         title: "Pull reCast #5 • Samurai Brito - Quantumania: computação quântica pode salvar o mundo",
         url: "https://www.youtube.com/watch?v=ETPXYkN0G9I&list=PLvTYEo3BhTV7Vc5UwHDemwZBEWxFTtANK",
       },
@@ -109,7 +109,7 @@ const seasonData = {
     ],
   },
   s2: {
-    label: "Temporada 2",
+    label: "Temporada 2 (2024)",
     platform: "Instagram • Lives",
     description: "6 encontros ao vivo sobre IA na prática com convidados influentes.",
     cta: {
@@ -126,7 +126,7 @@ const seasonData = {
     ],
   },
   s3: {
-    label: "Temporada 3",
+    label: "Temporada 3 (2025)",
     platform: "Spotify • Áudio",
     description: "40 episódios curtos, diretos, semanais, com participação da comunidade.",
     cta: {
@@ -149,10 +149,6 @@ const seasonData = {
       {
         title: "2025 #37 - Dezembrou! Maratona IA, estratégia e carreira: como se preparar para 2026",
         url: "https://open.spotify.com/episode/5Odar0j3qINjMTAuyiwmG0",
-      },
-      {
-        title: "Vem pra Maratona IA na sua carreira! Últimas vagas",
-        url: "https://open.spotify.com/episode/3QQsUV054KFZxzykd27imO",
       },
       {
         title:
@@ -412,7 +408,7 @@ function Home() {
               </a>
               <a
                 className="icon-link"
-                href="https://www.youtube.com/playlist?list=PLvTYEo3BhTV7Vc5UwHDemwZBEWxFTtANK"
+                href="https://www.youtube.com/@pullrecast?sub_confirmation=1"
                 aria-label="YouTube"
                 target="_blank"
                 rel="noreferrer"
@@ -517,7 +513,7 @@ function Home() {
               },
               {
                 title: "Comunidade que participa",
-                text: "Participações da audiência, PRs de áudio e convidados de diferentes áreas da tecnologia.",
+                text: "Participações da audiência em áudio, os \"PRs\", e convidados de diferentes áreas da tecnologia.",
               },
               {
                 title: "Carreira em primeiro plano",
