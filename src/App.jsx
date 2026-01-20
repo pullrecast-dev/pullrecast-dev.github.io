@@ -421,15 +421,15 @@ function Home() {
                 <svg viewBox="0 0 24 24" aria-hidden="true">
                   <rect
                     x="3"
-                    y="6.5"
+                    y="3"
                     width="18"
-                    height="11"
+                    height="18"
                     rx="3.2"
                     fill="none"
                     stroke="currentColor"
                     strokeWidth="1.6"
                   />
-                  <path d="M10 9.2l5.8 2.8-5.8 2.8z" fill="currentColor" />
+                  <path d="M10 9l6 3-6 3z" fill="currentColor" />
                 </svg>
               </a>
               <a
