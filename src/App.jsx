@@ -117,12 +117,12 @@ const seasonData = {
       url: "https://instagram.com/pullrecast",
     },
     episodes: [
-      { title: "Live 01 • Temporada 2 no Instagram", url: "https://www.instagram.com/reel/C_JutjrRo18/" },
-      { title: "Live 02 • Temporada 2 no Instagram", url: "https://www.instagram.com/reel/C_d9f49RlVp/" },
-      { title: "Live 03 • Temporada 2 no Instagram", url: "https://www.instagram.com/reel/C_tzUXnxBNV/" },
-      { title: "Live 04 • Temporada 2 no Instagram", url: "https://www.instagram.com/reel/DAB717JxJym/" },
-      { title: "Live 05 • Temporada 2 no Instagram", url: "https://www.instagram.com/reel/DAR7EMlxlgT/" },
-      { title: "Live 06 • Temporada 2 no Instagram", url: "https://www.instagram.com/reel/DAj0KR7xCC5/" },
+      { title: "Live 01 • Papo livre com Sérgio Gama, Flávia Beo e Gil Giardelli", url: "https://www.instagram.com/p/C_JutjrRo18/" },
+      { title: "Live 02 • Início de Carreias com @osestagiarios__ Anthony Thomas e Izailma Santos", url: "https://www.instagram.com/p/C_d9f49RlVp/" },
+      { title: "Live 03 • Segurança com Gabriela Colaço", url: "https://www.instagram.com/p/C_tzUXnxBNV/" },
+      { title: "Live 04 • Carreira Tech além do Senior com Bruno Souza, o Java Man", url: "https://www.instagram.com/p/DAB717JxJym/" },
+      { title: "Live 05 • Dev-Enzo com Rodrigo Cardoso, o famoso @pokemaobr", url: "https://www.instagram.com/p/DAR7EMlxlgT/" },
+      { title: "Live 06 • Encerramento com Alan e Matheus", url: "https://www.instagram.com/p/DAj0KR7xCC5/" },
     ],
   },
   s3: {
