@@ -136,164 +136,164 @@ const seasonData = {
     episodes: [
       {
         title: "2025 #40 - Retrospectiva IA 2025: comunidade, hype, agentes e o que realmente funcionou",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-40---Retrospectiva-IA-2025-comunidade--hype--agentes-e-o-que-realmente-funcionou-e3cueia",
+        url: "https://open.spotify.com/episode/5VmK3a2tb2pIGoBxoSKqnX",
       },
       {
         title: "2025 #39 - AGI não virá no Natal! Panetone, Maratona de IA, Palavras do Ano!",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-39---AGI-no-vir-no-Natal--Panetone--Maratona-de-IA--Palavras-do-Ano-e3cmrpl",
+        url: "https://open.spotify.com/episode/768CKf2uNP4B0ElbEGTHTz",
       },
       {
         title: "2025 #38 - Caos da IA: todo mundo usando, quase ninguém sabendo!",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-38---Caos-da-IA-todo-mundo-usando--quase-ningum-sabendo-e3cdcj8",
+        url: "https://open.spotify.com/episode/2QrMRAmKcwGwzDMKXMCFEY",
       },
       {
         title: "2025 #37 - Dezembrou! Maratona IA, Estratégia e Carreira: Como se Preparar para 2026",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-37---Dezembrou--Maratona-IA--Estratgia-e-Carreira-Como-se-Preparar-para-2026-e3c2rfq",
+        url: "https://open.spotify.com/episode/5Odar0j3qINjMTAuyiwmG0",
       },
       {
         title: "2025 #36 – Black Friday dos Agentes: IA, Excel com Claude e a Maratona que vai turbinar sua carreira em 2026",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-36--Black-Friday-dos-Agentes-IA--Excel-com-Claude-e-a-Maratona-que-vai-turbinar-sua-carreira-em-2026-e3bp7vi",
+        url: "https://open.spotify.com/episode/1iYFsnT4cKMiOKy7G3La7u",
       },
       {
         title: "2025 #35 – Bolha da IA, Nvidia, Google e o Futuro do Trabalho",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-35--Bolha-da-IA--Nvidia--Google-e-o-Futuro-do-Trabalho-e3bduto",
+        url: "https://open.spotify.com/episode/0QzmGMyBMz7hJNG6bgaGYH",
       },
       {
         title: "2025 #34 - Maratona IA: delegar, criar e permanecer humano na era dos agentes autônomos",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-34---Maratona-IA-delegar--criar-e-permanecer-humano-na-era-dos-agentes-autnomos-e3b3i23",
+        url: "https://open.spotify.com/episode/2hgwUu9VZdBls2dqxChvUH",
       },
       {
         title: "2025 #33 - Da “Vibe Coding” aos Robôs Domésticos: o que realmente está mudando com a IA",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-33---Da-Vibe-Coding-aos-Robs-Domsticos-o-que-realmente-est-mudando-com-a-IA-e3aolf0",
+        url: "https://open.spotify.com/episode/4EkjWkLDVhpqaawkZBwErh",
       },
       {
         title: "2025 #32 - IA no dia a dia: hábitos, futebol, browsers e o uso “do jeito certo”",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-32---IA-no-dia-a-dia-hbitos--futebol--browsers-e-o-uso-do-jeito-certo-e3ae9l6",
+        url: "https://open.spotify.com/episode/7gpYiODlj4KpGWnaSaR0tZ",
       },
       {
         title: "2025 #31 - Navegadores com IA, Novos Grupos na Comunidade e o Futuro da Produtividade de forma certa!",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-31---Navegadores-com-IA--Novos-Grupos-na-Comunidade-e-o-Futuro-da-Produtividade-de-forma-certa-e3a3ppt",
+        url: "https://open.spotify.com/episode/2d8QX9nkg5TI3JgCQeL7S2",
       },
       {
         title: "2025 #30 - IA do Playground à Reunião de Diretoria: Como a IA está transformando todas as idades e todas as profissões",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-30---IA-do-Playground--Reunio-de-Diretoria-Como-a-IA-est-transformando-todas-as-idades-e-todas-as-profisses-e39pf9s",
+        url: "https://open.spotify.com/episode/490TWLrBOcml0OybFOxSlz",
       },
       {
         title:
           "2025 #29 - Humanos Alucinando! Desleixo ao não revisar IA gera prejuízo! Mudança de API do Google impacta, e o futuro do trabalho impulsionado por IA",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-29---Humanos-Alucinando--Desleixo-ao-no-revisar-IA-gera-prejuzo--Mudana-de-API-do-Google-impacta--e-o-futuro-do-trabalho-impulsionado-por-IA-e39boab",
+        url: "https://open.spotify.com/episode/6TEQJcVtY3ZMTvwaV8Ws3P",
       },
       {
         title: "2025 #28 - IA sem cuidado vira ENTULHO digital, Granite 4, acabaram os dados gerados por pessoas!",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-28---IA-sem-cuidado-vira-ENTULHO-digital--Granite-4--acabaram-os-dados-gerados-por-pessoas-e395m13",
+        url: "https://open.spotify.com/episode/30vL7LGX2CHiZpyjQTccJm",
       },
       {
         title: "2025 #27 - IA em Documentos PDF | Como estamos usando o ChatGPT? | Novo protocolo AP2 de pagamento de Agentes!",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-27---IA-em-Documentos-PDF--Como-estamos-usando-o-ChatGPT---Novo-protocolo-AP2-de-pagamento-de-Agentes-e38rn7d",
+        url: "https://open.spotify.com/episode/65nP0MolxfdmfJnRObms4M",
       },
       {
         title: "2025 #26 - Do TDC à Maratona de IA: Casos Reais, Agentes e Comunidade em Alta",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-26---Do-TDC--Maratona-de-IA-Casos-Reais--Agentes-e-Comunidade-em-Alta-e38ivcf",
+        url: "https://open.spotify.com/episode/2CzsWslfBD2LDomljfplDA",
       },
       {
         title: "2025 #25 - IA em alta: dos laboratórios da IBM ao TDC São Paulo",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-25---IA-em-alta-dos-laboratrios-da-IBM-ao-TDC-So-Paulo-e388afa",
+        url: "https://open.spotify.com/episode/0rDDBWpyXXts5sMI8Cgd1s",
       },
       {
         title: "2025 #24 - podcast.ia.br chegou! Encontros, Agentes e os desafios de validar IA",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-24---podcast-ia-br-chegou--Encontros--Agentes-e-os-desafios-de-validar-IA-e37ul4n",
+        url: "https://open.spotify.com/episode/22tuFHrE5giyZkRAfD5uoP",
       },
       {
         title: "2025 #23 - IA, Segurança, Workshops e Networking – Setembro Surreal!",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-23---IA--Segurana--Workshops-e-Networking--Setembro-Surreal-e37jfqk",
+        url: "https://open.spotify.com/episode/3QEXtIBlzSp1rEptxGtvOf",
       },
       {
         title: "2025 #22 - Superinteligência em 2027? Desmistificando a ficção e mostrando a realidade da IA.",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-22---Superinteligncia-em-2027--Desmistificando-a-fico-e-mostrando-a-realidade-da-IA-e379jpf",
+        url: "https://open.spotify.com/episode/6qZBmAhWt5n6oJkirAwDU9",
       },
       {
         title: "2025 #21 - Sistemas Multi-agentes são o Futuro?",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-21---Sistemas-Multi-agentes-so-o-Futuro-e371532",
+        url: "https://open.spotify.com/episode/5YbhcAMrMAgm44NPowvpI3",
       },
       {
         title: "2025 #20 - GPT-5 é um Super Agente de IA? Não terceirize sua inteligência!",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-20---GPT-5--um-Super-Agente-de-IA--No-terceirize-sua-inteligncia-e36n8v1",
+        url: "https://open.spotify.com/episode/2xUZBnTioBMXoBKTszbIQf",
       },
       {
         title: "2025 #19 - A década dos Agentes! Palestra do criador do termo Vibe Coding",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-19---A-dcada-dos-Agentes--Palestra-do-criador-do-termo-Vibe-Coding-e36e5fg",
+        url: "https://open.spotify.com/episode/7MveWWgk8Fngm1TelGlgib",
       },
       {
         title: "2025 #18 - Busca de sites mudou! AI Action Plan dos EUA",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-18---Busca-de-sites-mudou--AI-Action-Plan-dos-EUA-e364io2",
+        url: "https://open.spotify.com/episode/3Ly8NtwErstZhWmlxsFC71",
       },
       {
         title: "2025 #17 - Agentes de IA com segurança e explicabilidade?",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-17---Agentes-de-IA-com-segurana-e-explicabilidade-e35qpnt",
+        url: "https://open.spotify.com/episode/7A1Rm8G8BtbIa5EW1K54H2",
       },
       {
         title: "2025 #16 - Vibe Coding atrapalha desenvolvedores, Projetos de Agentes de IA tendem a falhar!",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-16---Vibe-Coding-atrapalha-desenvolvedores--Projetos-de-Agentes-de-IA-tendem-a-falhar-e35ha2k",
+        url: "https://open.spotify.com/episode/3tfJVmUkiSinxV3dOYz4p6",
       },
       {
         title: "2025 #15 - Futuro das Carreiras de TI | Agentes de IA seguros!",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-15---Futuro-das-Carreiras-de-TI--Agentes-de-IA-seguros-e353kpk",
+        url: "https://open.spotify.com/episode/6asIarVE5kf5Wxq190fLzp",
       },
       {
         title: "2025 #14 - Agentes de IA vs Agentic AI, Brasil liderando no cenário Global?",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-14---Agentes-de-IA-vs-Agentic-AI--Brasil-liderando-no-cenrio-Global-e34tm35",
+        url: "https://open.spotify.com/episode/2S0kj6sWSxH0PBEyYoloYn",
       },
       {
         title: "2025 #13 - Estamos emburrecendo? VIP grátis na AI Agents Conference",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-13---Estamos-emburrecendo--VIP-grtis-na-AI-Agents-Conference-e34k1rp",
+        url: "https://open.spotify.com/episode/56J8YkA21Cdx8qtkF7U3ZN",
       },
       {
         title: "2025 #12 - Febraban Tech, Campinas Innovation Week, IBM Think",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-12---Febraban-Tech--Campinas-Innovation-Week--IBM-Think-e34afqs",
+        url: "https://open.spotify.com/episode/6a5gJWg5AXV8ICSux8mTB9",
       },
       {
         title: "2025 #11 - IA NÃO Pensa! Marca d'água e ética nos vídeos ultra-realistas",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-11---IA-NO-Pensa--Marca-dgua-e-tica-nos-vdeos-ultra-realistas-e340ft8",
+        url: "https://open.spotify.com/episode/6zPxfrPhKtda9D1xpredce",
       },
       {
         title: "2025 #10 - DeepFake! Medo! Agentes pra negócios!",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-10---DeepFake--Medo--Agentes-pra-negcios-e33mgk3",
+        url: "https://open.spotify.com/episode/6m9Bj07eL5J48iJt3ayUzX",
       },
       {
         title: "2025 #09 - FOMO, Ansiedade, Agentes e Small models!",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-09---FOMO--Ansiedade--Agentes-e-Small-models-e33ccrm",
+        url: "https://open.spotify.com/episode/6OkazwmMpGn4oGC1q1ut8p",
       },
       {
         title: "2025 #08 - Explicando IA para os avós! Futuro incerto!",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-08---Explicando-IA-para-os-avs--Futuro-incerto-e331vi1",
+        url: "https://open.spotify.com/episode/68IsmVZ5pqCAn8QoO8tBPu",
       },
       {
         title: "2025 #07 - Vibe coding, NotebookLM, IBM Think!",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-07---Vibe-coding--NotebookLM--IBM-Think-e32nn4p",
+        url: "https://open.spotify.com/episode/3psOe4GnHPmE3IaLZ1GKqM",
       },
       {
         title: "2025 #06 - WebSummit, aplicação de IA e Agentes! Estamos todos perdidos!",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-06---WebSummit--aplicao-de-IA-e-Agentes--Estamos-todos-perdidos-e32ddu0",
+        url: "https://open.spotify.com/episode/5LpeUjTtFxokVGFWmuZjCM",
       },
       {
         title: "2025 #05 - Disciplina, melhorando 0.001s por dia! Robôs Maratonistas! Eventos marcantes.",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-05---Disciplina--melhorando-0-001s-por-dia--Robs-Maratonistas--Eventos-marcantes-e323mlj",
+        url: "https://open.spotify.com/episode/0Rn0jRtBp8b359dtYFiaYA",
       },
       {
         title: "2025 #04 - Quem manda na IA? TI ou funcionários? Hamburguer artesanal!",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-04---Quem-manda-na-IA--TI-ou-funcionrios--Hamburguer-artesanal-e31q444",
+        url: "https://open.spotify.com/episode/0yvZ0L4JsU2DZQWVFSF4Up",
       },
       {
         title: "2025 #03 - MCP, Agentes, RPA, Futuro Quântico!",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-03---MCP--Agentes--RPA--Futuro-Quntico-e31dq8k",
+        url: "https://open.spotify.com/episode/38fhlyOUUSQ410VhEqlfrb",
       },
       {
         title: "2025 #02 - Agentes, CrewAI, Empreendedores, Filmes!",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-02---Agentes--CrewAI--Empreendedores--Filmes-e317d06",
+        url: "https://open.spotify.com/episode/2d716T6ou63GvaYdOnL2nK",
       },
       {
         title: "2025 #01 - Voltamos! Eventos, casos, dados e muita IA",
-        url: "https://podcasters.spotify.com/pod/show/pullrecast/episodes/2025-01---Voltamos--Eventos--casos--dados-e-muita-IA-e30tdfk",
+        url: "https://open.spotify.com/episode/5fjg2P1tYa9pQn8CJUgxvy",
       },
     ],
     note: "Procurando episódios anteriores? A lista completa está no Spotify.",
