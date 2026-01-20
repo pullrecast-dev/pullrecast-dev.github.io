@@ -342,7 +342,7 @@ function Header() {
           href={item.href}
           onClick={onClick}
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           {item.label}
         </a>
@@ -401,29 +401,29 @@ function Footer() {
         </div>
         <div>
           <h4>Plataformas</h4>
-          <a href="https://podcast.ia.br" target="_blank" rel="noreferrer">
+          <a href="https://podcast.ia.br" target="_blank" rel="noopener noreferrer">
             Spotify
           </a>
           <a
             href="https://www.youtube.com/@pullrecast"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             YouTube
           </a>
-          <a href="https://instagram.com/pullrecast" target="_blank" rel="noreferrer">
+          <a href="https://instagram.com/pullrecast" target="_blank" rel="noopener noreferrer">
             Instagram
           </a>
         </div>
         <div>
           <h4>Comunidade</h4>
-          <a href="https://comece.ia.br" target="_blank" rel="noreferrer">
+          <a href="https://comece.ia.br" target="_blank" rel="noopener noreferrer">
             WhatsApp
           </a>
-          <a href="https://www.linkedin.com/company/pullrecast/" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/company/pullrecast/" target="_blank" rel="noopener noreferrer">
             LinkedIn
           </a>
-          <a href="mailto:contato@podcast.ia.br" target="_blank" rel="noreferrer">
+          <a href="mailto:contato@podcast.ia.br" target="_blank" rel="noopener noreferrer">
             Contato
           </a>
         </div>
@@ -447,14 +447,14 @@ function Home() {
               prática.
             </p>
             <div className="hero-actions">
-              <a className="btn primary" href="https://podcast.ia.br" target="_blank" rel="noreferrer">
+              <a className="btn primary" href="https://podcast.ia.br" target="_blank" rel="noopener noreferrer">
                 Ouvir no Spotify
               </a>
               <a
                 className="btn ghost"
                 href="https://www.youtube.com/playlist?list=PLvTYEo3BhTV7Vc5UwHDemwZBEWxFTtANK"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 Assistir 1ª temporada
               </a>
@@ -465,7 +465,7 @@ function Home() {
                 href="https://comece.ia.br"
                 aria-label="Comunidade"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 <span className="sr-only">Comunidade</span>
                 <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -489,7 +489,7 @@ function Home() {
                 href="https://podcast.ia.br"
                 aria-label="Spotify"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 <span className="sr-only">Spotify</span>
                 <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -527,7 +527,7 @@ function Home() {
                 href="https://www.youtube.com/@pullrecast?sub_confirmation=1"
                 aria-label="YouTube"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 <span className="sr-only">YouTube</span>
                 <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -549,7 +549,7 @@ function Home() {
                 href="https://instagram.com/pullrecast"
                 aria-label="Instagram"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 <span className="sr-only">Instagram</span>
                 <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -568,7 +568,7 @@ function Home() {
                 href="https://www.linkedin.com/company/pullrecast/about/?viewAsMember=true"
                 aria-label="LinkedIn"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 <span className="sr-only">LinkedIn</span>
                 <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -602,7 +602,7 @@ function Home() {
               className="logo-frame"
               href="https://maratona.ia.br"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <img src="/chamada_2a_maratona.png" alt="Chamada da Maratona de IA" />
               <div className="logo-glow" />
@@ -689,7 +689,7 @@ function Home() {
               <article key={item.title} className="card card-highlight">
                 <h3>{item.title}</h3>
                 <p>{item.text}</p>
-                <a className="btn ghost" href={item.action.url} target="_blank" rel="noreferrer">
+                <a className="btn ghost" href={item.action.url} target="_blank" rel="noopener noreferrer">
                   {item.action.label}
                 </a>
               </article>
@@ -724,7 +724,7 @@ function Home() {
                     href="https://alan.ia.br"
                     aria-label="Website do Alan"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     <span className="sr-only">Website do Alan</span>
                     <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -743,7 +743,7 @@ function Home() {
                     href="https://www.linkedin.com/in/alanbraz"
                     aria-label="LinkedIn do Alan"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     <span className="sr-only">LinkedIn do Alan</span>
                     <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -758,7 +758,7 @@ function Home() {
                     href="mailto:alan@podcast.ia.br"
                     aria-label="Email do Alan"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     <span className="sr-only">Email do Alan</span>
                     <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -800,7 +800,7 @@ function Home() {
                     href="https://matheus.ia.br"
                     aria-label="Website do Matheus"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     <span className="sr-only">Website do Matheus</span>
                     <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -819,7 +819,7 @@ function Home() {
                     href="https://www.linkedin.com/in/matheusbitencourt-ai"
                     aria-label="LinkedIn do Matheus"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     <span className="sr-only">LinkedIn do Matheus</span>
                     <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -834,7 +834,7 @@ function Home() {
                     href="mailto:matheus@podcast.ia.br"
                     aria-label="Email do Matheus"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     <span className="sr-only">Email do Matheus</span>
                     <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -889,7 +889,7 @@ function Home() {
             <Link className="btn primary" to="/seasons">
               Ver episódios completos
             </Link>
-            <a className="btn ghost" href="https://podcast.ia.br" target="_blank" rel="noreferrer">
+            <a className="btn ghost" href="https://podcast.ia.br" target="_blank" rel="noopener noreferrer">
               Abrir Spotify
             </a>
           </div>
@@ -928,10 +928,10 @@ function Home() {
             ))}
           </div>
           <div className="cta-row">
-            <a className="btn primary" href="mailto:contato@podcast.ia.br?subject=Parceria" target="_blank" rel="noreferrer">
+            <a className="btn primary" href="mailto:contato@podcast.ia.br?subject=Parceria" target="_blank" rel="noopener noreferrer">
               Falar com o time
             </a>
-            {/* <a className="btn ghost" href="https://pullrecast.dev/" target="_blank" rel="noreferrer">
+            {/* <a className="btn ghost" href="https://pullrecast.dev/" target="_blank" rel="noopener noreferrer">
               Mídia kit
             </a> */}
           </div>
@@ -980,14 +980,14 @@ function Seasons() {
                 <h2>{activeSeason.platform}</h2>
                 <p>{activeSeason.description}</p>
               </div>
-              <a className="btn primary" href={activeSeason.cta.url} target="_blank" rel="noreferrer">
+              <a className="btn primary" href={activeSeason.cta.url} target="_blank" rel="noopener noreferrer">
                 {activeSeason.cta.label}
               </a>
             </div>
             <ol className="episode-list">
               {activeSeason.episodes.map((episode) => (
                 <li key={episode.url}>
-                  <a href={episode.url} target="_blank" rel="noreferrer">
+                  <a href={episode.url} target="_blank" rel="noopener noreferrer">
                     {episode.title}
                   </a>
                 </li>
