@@ -522,6 +522,13 @@ img {
   line-height: 1.6;
 }
 
+.host-links {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
 .impact-banner {
   margin-top: 24px;
   padding: 20px 24px;

@@ -606,6 +606,71 @@ function Home() {
                   Mestre em Ciência da Computação, autor de papers e patentes, líder
                   de arquiteturas de IA e confiabilidade.
                 </p>
+                <div className="host-links">
+                  <a
+                    className="icon-link"
+                    href="https://alan.ia.br"
+                    aria-label="Website do Alan"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span className="sr-only">Website do Alan</span>
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <circle cx="12" cy="12" r="8.4" fill="none" stroke="currentColor" strokeWidth="1.6" />
+                      <path
+                        d="M3.6 12h16.8M12 3.6c2.6 2.8 2.6 13.9 0 16.8M12 3.6c-2.6 2.8-2.6 13.9 0 16.8"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="1.6"
+                        strokeLinecap="round"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    className="icon-link"
+                    href="https://www.linkedin.com/in/alanbraz"
+                    aria-label="LinkedIn do Alan"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span className="sr-only">LinkedIn do Alan</span>
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path
+                        d="M4.5 9H8v11H4.5V9zm1.7-5.2a2 2 0 110 4 2 2 0 010-4zM11.5 9H15v1.5c.5-1 1.7-2 3.6-2 3 0 3.9 2 3.9 5.3V20H19v-5.3c0-1.4-.5-2.4-1.8-2.4-1 0-1.6.7-1.9 1.4-.1.3-.1.7-.1 1.2V20h-3.5V9z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    className="icon-link"
+                    href="mailto:alan@podcast.ia.br"
+                    aria-label="Email do Alan"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span className="sr-only">Email do Alan</span>
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <rect
+                        x="3.5"
+                        y="6"
+                        width="17"
+                        height="12"
+                        rx="2.4"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="1.6"
+                      />
+                      <path
+                        d="M4 7l8 6 8-6"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="1.6"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </a>
+                </div>
               </div>
             </article>
             <article className="host-card">
@@ -617,6 +682,71 @@ function Home() {
                   Especialista em Multi AI Agents, estratégia e governança. Mentor
                   de carreira e comunidades técnicas.
                 </p>
+                <div className="host-links">
+                  <a
+                    className="icon-link"
+                    href="https://matheus.ia.br"
+                    aria-label="Website do Matheus"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span className="sr-only">Website do Matheus</span>
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <circle cx="12" cy="12" r="8.4" fill="none" stroke="currentColor" strokeWidth="1.6" />
+                      <path
+                        d="M3.6 12h16.8M12 3.6c2.6 2.8 2.6 13.9 0 16.8M12 3.6c-2.6 2.8-2.6 13.9 0 16.8"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="1.6"
+                        strokeLinecap="round"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    className="icon-link"
+                    href="https://www.linkedin.com/in/matheusbitencourt-ai"
+                    aria-label="LinkedIn do Matheus"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span className="sr-only">LinkedIn do Matheus</span>
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path
+                        d="M4.5 9H8v11H4.5V9zm1.7-5.2a2 2 0 110 4 2 2 0 010-4zM11.5 9H15v1.5c.5-1 1.7-2 3.6-2 3 0 3.9 2 3.9 5.3V20H19v-5.3c0-1.4-.5-2.4-1.8-2.4-1 0-1.6.7-1.9 1.4-.1.3-.1.7-.1 1.2V20h-3.5V9z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    className="icon-link"
+                    href="mailto:matheus@podcast.ia.br"
+                    aria-label="Email do Matheus"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span className="sr-only">Email do Matheus</span>
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <rect
+                        x="3.5"
+                        y="6"
+                        width="17"
+                        height="12"
+                        rx="2.4"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="1.6"
+                      />
+                      <path
+                        d="M4 7l8 6 8-6"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="1.6"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </a>
+                </div>
               </div>
             </article>
           </div>
