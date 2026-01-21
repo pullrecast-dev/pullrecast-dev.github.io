@@ -447,7 +447,15 @@ function Home() {
               prática.
             </p>
             <div className="hero-actions">
-              <a className="btn primary" href="https://podcast.ia.br" target="_blank" rel="noopener noreferrer">
+              <a className="btn primary" href="https://comece.ia.br" target="_blank" rel="noopener noreferrer">
+                Entre na comunidade
+              </a>
+              <a
+                className="btn ghost"
+                href="https://podcast.ia.br"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Ouvir no Spotify
               </a>
               <a
@@ -456,7 +464,15 @@ function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Assistir 1ª temporada
+                Assistir 1ª temporada no Youtube
+              </a>
+              <a
+                className="btn ghost"
+                href="https://reserva.ink/pullrecast"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Loja de camiseta Reserva
               </a>
             </div>
             <div className="hero-links">
@@ -689,7 +705,7 @@ function Home() {
               <article key={item.title} className="card card-highlight">
                 <h3>{item.title}</h3>
                 <p>{item.text}</p>
-                <a className="btn ghost" href={item.action.url} target="_blank" rel="noopener noreferrer">
+                <a className="btn primary" href={item.action.url} target="_blank" rel="noopener noreferrer">
                   {item.action.label}
                 </a>
               </article>
