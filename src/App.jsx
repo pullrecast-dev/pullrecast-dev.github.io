@@ -5,7 +5,7 @@ const seasonData = {
   s1: {
     label: "Temporada 1 (2022-2023)",
     platform: "YouTube • Videocast",
-    description: "21 episódios com convidados e cases de carreira.",
+    description: "21 episódios com convidados e casos reais de tecnologia e liderança.",
     cta: {
       label: "Abrir playlist completa",
       url: "https://www.youtube.com/playlist?list=PLvTYEo3BhTV7Vc5UwHDemwZBEWxFTtANK",
@@ -111,7 +111,7 @@ const seasonData = {
   s2: {
     label: "Temporada 2 (2024)",
     platform: "Instagram • Lives",
-    description: "6 encontros ao vivo sobre IA na prática com convidados influentes.",
+    description: "6 encontros ao vivo sobre IA na prática, com convidados influentes.",
     cta: {
       label: "Abrir Instagram",
       url: "https://instagram.com/pullrecast",
@@ -128,7 +128,7 @@ const seasonData = {
   s3: {
     label: "Temporada 3 (2025)",
     platform: "Spotify • Áudio",
-    description: "40 episódios curtos, diretos, semanais, com participação da comunidade.",
+    description: "40 episódios curtos, diretos, semanais, com participação ativa da comunidade.",
     cta: {
       label: "Abrir no Spotify",
       url: "https://open.spotify.com/show/5zHeJgaZsj9WCMXfJoCVmD",
@@ -394,9 +394,9 @@ function Footer() {
         <div>
           <img src="/logo_pullrecast.png" alt="Logo PullreCast" />
           <p>
-            PullreCast é o podcast de conversas sobre IA aplicada, carreira e
-            comunidade. Conteúdo independente, feito para gente que constrói o
-            futuro.
+            PullreCast é o podcast de conversas sobre IA aplicada, liderança e
+            comunidade. Conteúdo independente, feito para quem decide, constrói e
+            mede resultado.
           </p>
         </div>
         <div>
@@ -439,12 +439,12 @@ function Home() {
         <div className="hero-glow" />
         <div className="container hero-grid">
           <div className="hero-copy">
-            <p className="eyebrow">Podcast sobre IA aplicada</p>
-            <h1>Conversas que viram estratégia real.</h1>
+            <p className="eyebrow">Podcast de IA da vida real</p>
+            <h1>Conversas que viram decisão e resultado.</h1>
             <p>
-              Um podcast independente que conecta IA, open source e carreira. Sem
-              promessas vazias: só relatos, experimentos e decisões que funcionam na
-              prática.
+              Um podcast independente, feito com a comunidade, que conecta IA, open
+              source e decisão de negócio. Sem promessas vazias: só relatos,
+              experimentos e aprendizados que funcionam na prática.
             </p>
             <div className="hero-actions">
               <a className="btn primary" href="https://comece.ia.br" target="_blank" rel="noopener noreferrer">
@@ -600,8 +600,8 @@ function Home() {
             {/* <div className="signal-card">
               <span className="signal-title">ON AIR</span>
               <p>
-                Episódios curtos, semanais, com convidados e insights para quem quer
-                liderar a nova onda da IA.
+                Episódios curtos, semanais, com convidados e insights para quem
+                lidera a nova onda da IA.
               </p>
               <div className="signal-stats">
                 <div>
@@ -633,23 +633,23 @@ function Home() {
             <span className="tag">Manifesto</span>
             <h2>Clareza para o que importa.</h2>
             <p>
-              O PullreCast nasceu para iluminar o que é real: impacto, carreira e
-              comunidade. Não seguimos hype, seguimos resultado.
+              O PullreCast nasceu para iluminar o que é real: impacto, decisão e
+              comunidade. Não seguimos modismos, seguimos resultado e pensamento crítico.
             </p>
           </div>
           <div className="card-grid">
             {[
               {
                 title: "Sem filtro, com contexto",
-                text: "Conversas diretas sobre agentes, modelos abertos, custo real e o que está por trás da tecnologia.",
+                text: "Conversas diretas sobre agentes, modelos abertos, custo real, ROI e riscos por trás da tecnologia.",
               },
               {
                 title: "Comunidade que participa",
-                text: "Participações da audiência em áudio, os \"PRs\", e convidados de diferentes áreas da tecnologia.",
+                text: "Participações da audiência em áudio fomentando debate com vozes diferentes.",
               },
               {
-                title: "Carreira em primeiro plano",
-                text: "Episódios para líderes, especialistas e pessoas em transição que querem construir longevidade.",
+                title: "Liderança em primeiro plano",
+                text: "Episódios para líderes e profissionais que precisam alinhar estratégia, governança e execução de IA.",
               },
             ].map((item) => (
               <article key={item.title} className="card">
@@ -678,27 +678,27 @@ function Home() {
         <div className="container">
           <div className="section-head">
             <span className="tag">Programas</span>
-            <h2>Experiências para ativar IA na sua carreira.</h2>
+            <h2>Experiências para ativar IA na sua liderança.</h2>
             <p>
-              Do palco ao laboratório, criamos formatos que aceleram times e
-              profissionais com estratégia, prática e mentorias de alto nível.
+              Do palco ao laboratório, criamos formatos que aceleram times, líderes
+              e profissionais com estratégia, prática e execução.
             </p>
           </div>
           <div className="card-grid">
             {[
               {
                 title: "Palestras & keynotes",
-                text: "Narrativas que conectam tecnologia, produto e negócio com exemplos reais.",
+                text: "Narrativas que conectam tecnologia, produto e negócio com casos reais e decisões difíceis.",
                 action: { label: "Solicitar agenda", url: "mailto:contato@podcast.ia.br?subject=Solicitar palestras" },
               },
               {
                 title: "Mentorias IA",
-                text: "Planos personalizados para líderes e squads que querem destravar IA sem ruído.",
+                text: "Planos personalizados para líderes e profissionais que querem destravar IA com governança e foco em resultado.",
                 action: { label: "Entrar na lista", url: "mailto:contato@podcast.ia.br?subject=Agendar mentoria" },
               },
               {
                 title: "Maratona IA",
-                text: "Programa intensivo com desafios, entregas e suporte para aplicação real.",
+                text: "Programa intensivo com desafios, entregas e suporte para aplicação real com métricas.",
                 action: { label: "Conhecer maratona", url: "https://maratona.ia.br" },
               },
             ].map((item) => (
@@ -889,8 +889,8 @@ function Home() {
         <div className="container">
           <div className="section-head">
             <span className="tag">Temporadas</span>
-            <h2>Três plataformas, a mesma vibe.</h2>
-            <p>Videocast, lives e áudio para quem quer acompanhar IA do jeito certo.</p>
+            <h2>Três plataformas, a mesma visão.</h2>
+            <p>Videocast, lives e áudio para quem precisa decidir e aplicar IA do jeito certo.</p>
           </div>
           <div className="season-grid">
             {[seasonData.s1, seasonData.s2, seasonData.s3].map((season) => (
