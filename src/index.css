@@ -372,6 +372,10 @@ img {
   width: min(320px, 70vw);
 }
 
+.episode-cover img {
+  width: min(280px, 68vw);
+}
+
 .logo-glow {
   position: absolute;
   inset: -14px;
@@ -379,6 +383,26 @@ img {
   background: radial-gradient(circle at 30% 20%, rgba(30, 242, 255, 0.45), transparent 60%);
   opacity: 0.6;
   z-index: -1;
+}
+
+.episode-highlight {
+  display: grid;
+  gap: 12px;
+}
+
+.episode-title {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  color: var(--text);
+}
+
+.episode-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 0.85rem;
+  color: var(--muted);
 }
 
 .section {

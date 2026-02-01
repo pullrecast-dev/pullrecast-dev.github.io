@@ -1,6 +1,58 @@
 import { BrowserRouter, Link, Route, Routes, useLocation } from "react-router-dom";
 import { useEffect, useMemo, useState } from "react";
 
+const RSS_URL = "https://anchor.fm/s/b411a8c8/podcast/rss";
+// Anchor's RSS feed doesn't allow browser CORS, so we fetch through a lightweight proxy.
+const RSS_PROXY_URL = `https://api.allorigins.win/raw?url=${encodeURIComponent(RSS_URL)}`;
+const EPISODE_FALLBACK = {
+  title: "Ouça o PullreCast no Spotify",
+  link: "https://podcast.ia.br",
+  pubDate: "",
+  summary: "O episódio mais recente aparece aqui. Clique para ouvir no Spotify.",
+  image: "/logo_pullrecast.png",
+};
+
+const formatEpisodeDate = (dateString) => {
+  if (!dateString) return "";
+  const date = new Date(dateString);
+  if (Number.isNaN(date.getTime())) return "";
+  return date.toLocaleDateString("pt-BR", {
+    day: "2-digit",
+    month: "short",
+    year: "numeric",
+  });
+};
+
+const extractLatestEpisode = (xmlText) => {
+  if (typeof DOMParser === "undefined") return null;
+  const parser = new DOMParser();
+  const xml = parser.parseFromString(xmlText, "text/xml");
+  const item = xml.querySelector("channel > item");
+  if (!item) return null;
+
+  const title = item.querySelector("title")?.textContent?.trim() || EPISODE_FALLBACK.title;
+  const link = item.querySelector("link")?.textContent?.trim() || EPISODE_FALLBACK.link;
+  const pubDateRaw = item.querySelector("pubDate")?.textContent?.trim() || "";
+  const description = item.querySelector("description")?.textContent || "";
+  const image =
+    item.querySelector("itunes\\:image")?.getAttribute("href") ||
+    xml.querySelector("channel > itunes\\:image")?.getAttribute("href") ||
+    EPISODE_FALLBACK.image;
+
+  const htmlDoc = new DOMParser().parseFromString(description, "text/html");
+  const summaryText = htmlDoc.body.textContent?.replace(/\s+/g, " ").trim() || "";
+  const summary =
+    summaryText.length > 180 ? `${summaryText.slice(0, 177).trimEnd()}...` : summaryText || EPISODE_FALLBACK.summary;
+
+  return {
+    title,
+    link,
+    pubDate: formatEpisodeDate(pubDateRaw),
+    summary,
+    image,
+  };
+};
+
 const seasonData = {
   s1: {
     label: "Temporada 1 (2022-2023)",
@@ -433,6 +485,41 @@ function Footer() {
 }
 
 function Home() {
+  const [latestEpisode, setLatestEpisode] = useState(EPISODE_FALLBACK);
+  const [episodeStatus, setEpisodeStatus] = useState("loading");
+
+  useEffect(() => {
+    let active = true;
+    const controller = new AbortController();
+
+    const loadLatestEpisode = async () => {
+      try {
+        const response = await fetch(RSS_PROXY_URL, { signal: controller.signal });
+        if (!response.ok) throw new Error("RSS fetch failed");
+        const xmlText = await response.text();
+        const parsed = extractLatestEpisode(xmlText);
+        if (active && parsed) {
+          setLatestEpisode(parsed);
+          setEpisodeStatus("ready");
+        } else if (active) {
+          setEpisodeStatus("error");
+        }
+      } catch (error) {
+        if (active) setEpisodeStatus("error");
+      }
+    };
+
+    loadLatestEpisode();
+
+    return () => {
+      active = false;
+      controller.abort();
+    };
+  }, []);
+
+  const episodeTitleLabel =
+    episodeStatus === "ready" ? latestEpisode.title : "Último episódio do PullreCast";
+
   return (
     <main id="conteudo">
       <section className="hero">
@@ -597,32 +684,38 @@ function Home() {
             </div>
           </div>
           <div className="hero-visual">
-            {/* <div className="signal-card">
-              <span className="signal-title">ON AIR</span>
-              <p>
-                Episódios curtos, semanais, com convidados e insights para quem
-                lidera a nova onda da IA.
-              </p>
-              <div className="signal-stats">
-                <div>
-                  <strong>+50k</strong>
-                  <span>plays/mês</span>
-                </div>
-                <div>
-                  <strong>+740%</strong>
-                  <span>crescimento</span>
-                </div>
-              </div>
-            </div> */}
-            <a
-              className="logo-frame"
-              href="https://maratona.ia.br"
+            {/* <a
+              className="logo-frame episode-cover"
+              href={latestEpisode.link}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/chamada_2a_maratona.png" alt="Chamada da Maratona de IA" />
+              <img src={latestEpisode.image} alt={episodeTitleLabel} />
               <div className="logo-glow" />
-            </a>
+            </a> */}
+            <div className="signal-card episode-highlight" aria-live="polite">
+              <span className="signal-title">Último episódio no Spotify</span>
+              <h3 className="episode-title">
+                {episodeStatus === "loading" ? "Carregando episódio..." : latestEpisode.title}
+              </h3>
+              <p>
+                {episodeStatus === "loading"
+                  ? "Buscando o episódio mais recente no Spotify."
+                  : latestEpisode.summary}
+              </p>
+              <div className="episode-meta">
+                <span>{latestEpisode.pubDate || "Atualização semanal"}</span>
+                <span>{episodeStatus === "error" ? "Abrir no Spotify" : "Spotify"}</span>
+              </div>
+              <a
+                className="btn primary"
+                href={latestEpisode.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ouvir no Spotify
+              </a>
+            </div>
           </div>
         </div>
       </section>
