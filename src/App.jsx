@@ -348,7 +348,7 @@ const seasonData = {
         url: "https://open.spotify.com/episode/5fjg2P1tYa9pQn8CJUgxvy",
       },
     ],
-    note: "Procurando episódios anteriores? A lista completa está no Spotify.",
+    // note: "Procurando episódios anteriores? A lista completa está no Spotify.",
   },
 };
 
@@ -527,24 +527,27 @@ function Home() {
         <div className="container hero-grid">
           <div className="hero-copy">
             <p className="eyebrow">Podcast de IA da vida real</p>
-            <h1>Conversas que viram decisão e resultado.</h1>
+            <h1>Conversas que viram decisão e resultado</h1>
             <p>
               Um podcast independente, feito com a comunidade, que conecta IA, open
               source e decisão de negócio. Sem promessas vazias: só relatos,
-              experimentos e aprendizados que funcionam na prática.
+              experimentos e aprendizados que funcionam na prática, para quem quer criar 
+              fluência em IA e aplicar do jeito certo!
             </p>
             <div className="hero-actions">
               <a className="btn primary" href="https://comece.ia.br" target="_blank" rel="noopener noreferrer">
                 Entre na comunidade
               </a>
-              <a
+            </div>
+            <div className="hero-actions">
+              {/* <a
                 className="btn ghost"
                 href="https://podcast.ia.br"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Ouvir no Spotify
-              </a>
+              </a> */}
               <a
                 className="btn ghost"
                 href="https://www.youtube.com/playlist?list=PLvTYEo3BhTV7Vc5UwHDemwZBEWxFTtANK"
@@ -724,7 +727,7 @@ function Home() {
         <div className="container">
           <div className="section-head">
             <span className="tag">Manifesto</span>
-            <h2>Clareza para o que importa.</h2>
+            <h2>Clareza para o que importa</h2>
             <p>
               O PullreCast nasceu para iluminar o que é real: impacto, decisão e
               comunidade. Não seguimos modismos, seguimos resultado e pensamento crítico.
@@ -734,11 +737,11 @@ function Home() {
             {[
               {
                 title: "Sem filtro, com contexto",
-                text: "Conversas diretas sobre agentes, modelos abertos, custo real, ROI e riscos por trás da tecnologia.",
+                text: "Conversas diretas sobre implementações, experimentos, aprendizados reais, resultados, custos, ROI e riscos por trás da tecnologia.",
               },
               {
-                title: "Comunidade que participa",
-                text: "Participações da audiência em áudio fomentando debate com vozes diferentes.",
+                title: "Comunidade ativa que compartilha",
+                text: "Participações da comunidade compartilhando suas experiências e fomentando debate com ângulos diferentes.",
               },
               {
                 title: "Liderança em primeiro plano",
@@ -771,7 +774,7 @@ function Home() {
         <div className="container">
           <div className="section-head">
             <span className="tag">Programas</span>
-            <h2>Experiências para ativar IA na sua liderança.</h2>
+            <h2>Experiências para ativar IA na sua liderança</h2>
             <p>
               Do palco ao laboratório, criamos formatos que aceleram times, líderes
               e profissionais com estratégia, prática e execução.
@@ -781,7 +784,7 @@ function Home() {
             {[
               {
                 title: "Palestras & keynotes",
-                text: "Narrativas que conectam tecnologia, produto e negócio com casos reais e decisões difíceis.",
+                text: "Relatos que conectam tecnologia, produto e negócio com casos reais e decisões estratégicas.",
                 action: { label: "Solicitar agenda", url: "mailto:contato@podcast.ia.br?subject=Solicitar palestras" },
               },
               {
@@ -811,7 +814,7 @@ function Home() {
         <div className="container">
           <div className="section-head">
             <span className="tag">Hosts</span>
-            <h2>Duas visões, uma voz.</h2>
+            <h2>Duas visões, uma voz</h2>
             <p>
               Alan Braz e Matheus Bitencourt combinam laboratório e estratégia,
               engenharia e negócio para guiar cada episódio.
@@ -971,10 +974,10 @@ function Home() {
               </div>
             </article>
           </div>
-          <div className="impact-banner">
+          {/* <div className="impact-banner">
             Parcerias com comunidades que movimentam milhares de desenvolvedores,
             trilhas do TDC e conselho de IA na FDC.
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -982,11 +985,11 @@ function Home() {
         <div className="container">
           <div className="section-head">
             <span className="tag">Temporadas</span>
-            <h2>Três plataformas, a mesma visão.</h2>
+            <h2>Três plataformas, a mesma visão</h2>
             <p>Videocast, lives e áudio para quem precisa decidir e aplicar IA do jeito certo.</p>
           </div>
           <div className="season-grid">
-            {[seasonData.s1, seasonData.s2, seasonData.s3].map((season) => (
+            {[seasonData.s3, seasonData.s2, seasonData.s1].map((season) => (
               <article key={season.label} className="season-card">
                 <span>{season.label}</span>
                 <h3>{season.platform}</h3>
@@ -995,12 +998,12 @@ function Home() {
             ))}
           </div>
           <div className="cta-row">
-            <Link className="btn primary" to="/seasons">
-              Ver episódios completos
-            </Link>
-            <a className="btn ghost" href="https://podcast.ia.br" target="_blank" rel="noopener noreferrer">
+            <a className="btn primary" href="https://podcast.ia.br" target="_blank" rel="noopener noreferrer">
               Abrir Spotify
             </a>
+            <Link className="btn ghost" to="/seasons">
+              Ver lista de todos episódios completos
+            </Link>
           </div>
         </div>
       </section>
@@ -1009,25 +1012,25 @@ function Home() {
         <div className="container">
           <div className="section-head">
             <span className="tag">Parcerias</span>
-            <h2>Marcas que querem conversar com líderes reais.</h2>
+            <h2>Marcas que querem conversar com líderes</h2>
             <p>
-              O PullreCast conecta audiências técnicas e decisoras com formatos
-              estratégicos, eventos e episódios especiais.
+              O PullreCast conecta audiências estratégicas e técnicas com formatos
+              inovadores, eventos e episódios especiais.
             </p>
           </div>
           <div className="card-grid">
             {[
               {
-                title: "Público técnico e decisor",
-                text: "Brasil, EUA e Europa com foco em liderança técnica, dados e engenharia.",
+                title: "Público técnico e executivo",
+                text: "Brasil, EUA e Europa com foco em liderança, tecnologia, dados e engenharia. Sempre com foco de IA e inovação",
               },
               {
                 title: "Presença multiplataforma",
-                text: "Spotify, YouTube, Instagram e comunidade ativa com conversas de alto nível.",
+                text: "Spotify, YouTube, Instagram, LinkedIn e comunidade ativa no WhatsApp com conversas de alto nível.",
               },
               {
                 title: "Formatos sob medida",
-                text: "Cotas de episódios, séries especiais, workshops e eventos proprietários.",
+                text: "Cotas de episódios, séries especiais, convidados direcionados, tutoriais, workshops e eventos personalisados.",
               },
             ].map((item) => (
               <article key={item.title} className="card">
@@ -1060,9 +1063,10 @@ function Seasons() {
       <section className="season-hero">
         <div className="container">
           <span className="eyebrow">Temporadas</span>
-          <h1>Episódios por plataforma.</h1>
+          <h1>Episódios por plataforma</h1>
           <p>
-            Explore cada formato do PullreCast. Cada aba abre um mapa de links
+            Explore cada formato do PullreCast.<br/>
+            Cada aba abre uma lista de links
             diretos para ouvir ou assistir.
           </p>
         </div>
