@@ -3,13 +3,13 @@ import { useEffect, useMemo, useState } from "react";
 
 const RSS_URL = "https://anchor.fm/s/b411a8c8/podcast/rss";
 // Anchor's RSS feed doesn't allow browser CORS, so we fetch through a lightweight proxy.
-const RSS_PROXY_URL = `https://api.allorigins.win/raw?url=${encodeURIComponent(RSS_URL)}`;
+const RSS_PROXY_URL = RSS_URL; //`https://api.allorigins.win/raw?url=${encodeURIComponent(RSS_URL)}`;
 const EPISODE_FALLBACK = {
   title: "Ouça o PullreCast no Spotify",
   link: "https://podcast.ia.br",
   pubDate: "",
   summary: "O episódio mais recente aparece aqui. Clique para ouvir no Spotify.",
-  image: "/logo_pullrecast.png",
+  image: "/capa.png",
 };
 
 const formatEpisodeDate = (dateString) => {
@@ -687,7 +687,7 @@ function Home() {
             </div>
           </div>
           <div className="hero-visual">
-            {/* <a
+            <a
               className="logo-frame episode-cover"
               href={latestEpisode.link}
               target="_blank"
@@ -695,20 +695,20 @@ function Home() {
             >
               <img src={latestEpisode.image} alt={episodeTitleLabel} />
               <div className="logo-glow" />
-            </a> */}
+            </a>
             <div className="signal-card episode-highlight" aria-live="polite">
               <span className="signal-title">Último episódio no Spotify</span>
               <h3 className="episode-title">
                 {episodeStatus === "loading" ? "Carregando episódio..." : latestEpisode.title}
               </h3>
-              <p>
+              {/* <p>
                 {episodeStatus === "loading"
                   ? "Buscando o episódio mais recente no Spotify."
                   : latestEpisode.summary}
-              </p>
+              </p> */}
               <div className="episode-meta">
                 <span>{latestEpisode.pubDate || "Atualização semanal"}</span>
-                <span>{episodeStatus === "error" ? "Abrir no Spotify" : "Spotify"}</span>
+                {/* <span>{episodeStatus === "error" ? "Abrir no Spotify" : "Spotify"}</span> */}
               </div>
               <a
                 className="btn primary"
