@@ -6,7 +6,7 @@ const RSS_URL = "https://anchor.fm/s/b411a8c8/podcast/rss";
 const RSS_PROXY_URL = RSS_URL; //`https://api.allorigins.win/raw?url=${encodeURIComponent(RSS_URL)}`;
 const EPISODE_FALLBACK = {
   title: "Ouça o PullreCast no Spotify",
-  link: "https://podcast.ia.br",
+  link: "https://open.spotify.com/show/5zHeJgaZsj9WCMXfJoCVmD",
   pubDate: "",
   summary: "O episódio mais recente aparece aqui. Clique para ouvir no Spotify.",
   image: "/capa.png",
@@ -350,6 +350,37 @@ const seasonData = {
     ],
     // note: "Procurando episódios anteriores? A lista completa está no Spotify.",
   },
+  s4: {
+    label: "Temporada 4 (2026)",
+    platform: "Spotify • Áudio",
+    description: "Episódios curtos, diretos, semanais, com participação um colaborador da comunidade por episódio.",
+    cta: {
+      label: "Abrir no Spotify",
+      url: "https://open.spotify.com/show/5zHeJgaZsj9WCMXfJoCVmD",
+    },
+    episodes: [
+      {
+        title: "#68 - IA não pensa por você, ela pune quem não sabe estruturar o problema - com André Andreazzi",
+        url: "https://open.spotify.com/episode/0u8YTJvvYFJStpDcOdpxzC",
+      },
+      {
+        title: "#69 - Apocalipse dos Agentes de IA: Entre o Reels de Marketing e o Choque de Realidade - com Marcus Devolder",
+        url: "https://open.spotify.com/episode/3DqUeMs2EYmOQppiCDnobN",
+      },
+      {
+        title: "#70 - IA e Filosofia: Por que o pensamento crítico é o maior gargalo técnico? - com Flaw Bone",
+        url: "https://open.spotify.com/episode/3I6JjP8mCIODcZbiVY7mwz",
+      },
+      {
+        title: "#71 - Inteligência Acessível: Transformando IA em Autonomia Real - com Thierry Marcondes",
+        url: "https://open.spotify.com/episode/312rnsNjXhOyFxmZxggeUl",
+      },
+      {
+        title: "#72 - IA para Não Programadores e Podcasters: Um Papo com Marcus Mendes (IA Sob Controle)",
+        url: "https://open.spotify.com/episode/6iB4WadBoL9D9TNaWrl1Qj",
+      },
+    ]
+  }
 };
 
 const navItems = [
@@ -453,7 +484,7 @@ function Footer() {
         </div>
         <div>
           <h4>Plataformas</h4>
-          <a href="https://podcast.ia.br" target="_blank" rel="noopener noreferrer">
+          <a href="https://open.spotify.com/show/5zHeJgaZsj9WCMXfJoCVmD" target="_blank" rel="noopener noreferrer">
             Spotify
           </a>
           <a
@@ -538,23 +569,18 @@ function Home() {
               <a className="btn primary" href="https://comece.ia.br" target="_blank" rel="noopener noreferrer">
                 Entre na comunidade
               </a>
+              <a className="btn ghost" href="https://maratona.ia.br" target="_blank" rel="noopener noreferrer">
+                Aprenda IA do jeito certo
+              </a>
             </div>
             <div className="hero-actions">
-              {/* <a
-                className="btn ghost"
-                href="https://podcast.ia.br"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Ouvir no Spotify
-              </a> */}
               <a
                 className="btn ghost"
                 href="https://www.youtube.com/playlist?list=PLvTYEo3BhTV7Vc5UwHDemwZBEWxFTtANK"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Assistir 1ª temporada no Youtube
+                Assista 1ª temporada no Youtube
               </a>
               <a
                 className="btn ghost"
@@ -592,7 +618,7 @@ function Home() {
               </a>
               <a
                 className="icon-link"
-                href="https://podcast.ia.br"
+                href="https://open.spotify.com/show/5zHeJgaZsj9WCMXfJoCVmD"
                 aria-label="Spotify"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -716,7 +742,7 @@ function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Ouvir no Spotify
+                Ouça agora no Spotify
               </a>
             </div>
           </div>
@@ -989,7 +1015,7 @@ function Home() {
             <p>Videocast, lives e áudio para quem precisa decidir e aplicar IA do jeito certo.</p>
           </div>
           <div className="season-grid">
-            {[seasonData.s3, seasonData.s2, seasonData.s1].map((season) => (
+            {[seasonData.s4, seasonData.s3, seasonData.s2, seasonData.s1].map((season) => (
               <article key={season.label} className="season-card">
                 <span>{season.label}</span>
                 <h3>{season.platform}</h3>
