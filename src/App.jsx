@@ -389,7 +389,9 @@ const navItems = [
   { label: "Hosts", href: "/#hosts" },
   { label: "Temporadas", href: "/#temporadas" },
   { label: "Parcerias", href: "/#parcerias" },
-  { label: "Episódios", href: "/seasons" },
+  { label: "Episódios", href: "/episodios" },
+  { label: "Sobre", href: "/sobre" },
+  { label: "Contato", href: "/contato" },
 ];
 
 function ScrollToHash() {
@@ -406,6 +408,59 @@ function ScrollToHash() {
       target.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   }, [location.pathname, location.hash]);
+
+  return null;
+}
+
+const PAGE_SEO = {
+  "/": {
+    title: "PullreCast • Podcast de tecnologia e inteligência artificial sem hype",
+    description:
+      "Podcast brasileiro sobre tecnologia e inteligência artificial aplicada no mundo real, com foco em carreira, produtividade e comunidade.",
+    canonical: "https://pullrecast.dev/",
+  },
+  "/seasons": {
+    title: "Temporadas PullreCast • Episódios por plataforma",
+    description:
+      "Navegue pelas temporadas do PullreCast no YouTube, Instagram e Spotify com links oficiais de cada episódio.",
+    canonical: "https://pullrecast.dev/seasons",
+  },
+  "/episodios": {
+    title: "Episódios PullreCast • Podcast de IA e tecnologia",
+    description:
+      "Lista completa de episódios do PullreCast sobre inteligência artificial, carreira em tecnologia, produtividade e decisões de negócio.",
+    canonical: "https://pullrecast.dev/episodios",
+  },
+  "/sobre": {
+    title: "Sobre o PullreCast • Podcast brasileiro de tecnologia e IA",
+    description:
+      "Conheça o posicionamento, os hosts e o foco editorial do PullreCast: inteligência artificial na prática, sem hype.",
+    canonical: "https://pullrecast.dev/sobre",
+  },
+  "/contato": {
+    title: "Contato PullreCast • Parcerias, palestras e comunidade",
+    description:
+      "Fale com o PullreCast para parcerias, palestras, mentorias e participação no podcast de tecnologia e inteligência artificial.",
+    canonical: "https://pullrecast.dev/contato",
+  },
+};
+
+function RouteSeo() {
+  const location = useLocation();
+  const seo = PAGE_SEO[location.pathname] || PAGE_SEO["/"];
+
+  useEffect(() => {
+    document.title = seo.title;
+
+    const descMeta = document.querySelector('meta[name="description"]');
+    if (descMeta) descMeta.setAttribute("content", seo.description);
+
+    const canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (canonicalLink) canonicalLink.setAttribute("href", seo.canonical);
+
+    const ogUrl = document.querySelector('meta[property="og:url"]');
+    if (ogUrl) ogUrl.setAttribute("content", seo.canonical);
+  }, [seo]);
 
   return null;
 }
@@ -1027,7 +1082,7 @@ function Home() {
             <a className="btn primary" href="https://podcast.ia.br" target="_blank" rel="noopener noreferrer">
               Abrir Spotify
             </a>
-            <Link className="btn ghost" to="/seasons">
+            <Link className="btn ghost" to="/episodios">
               Ver lista de todos episódios completos
             </Link>
           </div>
@@ -1140,10 +1195,170 @@ function Seasons() {
   );
 }
 
+function EpisodiosPage() {
+  const location = useLocation();
+  const [activeTab, setActiveTab] = useState("s4");
+  const tabs = useMemo(() => Object.entries(seasonData).reverse(), []);
+
+  useEffect(() => {
+    const hashKey = location.hash.replace("#", "");
+    if (hashKey && seasonData[hashKey]) {
+      setActiveTab(hashKey);
+    }
+  }, [location.hash]);
+
+  const activeSeason = seasonData[activeTab];
+
+  return (
+    <main id="conteudo" className="season-page">
+      <section className="season-hero">
+        <div className="container">
+          <span className="eyebrow">Episódios PullreCast</span>
+          <h1>Podcast de tecnologia e inteligência artificial na prática</h1>
+          <p>
+            Explore os episódios do PullreCast sobre IA aplicada, carreira em tecnologia,
+            produtividade e decisões de negócio.
+          </p>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="tab-list">
+            {tabs.map(([key, season]) => (
+              <Link
+                key={key}
+                id={key}
+                to={`/episodios#${key}`}
+                onClick={() => setActiveTab(key)}
+                className={`tab-button ${key === activeTab ? "active" : ""}`}
+              >
+                {season.label}
+              </Link>
+            ))}
+          </div>
+
+          <article className="season-panel">
+            <div className="season-header">
+              <div>
+                <span className="tag">{activeSeason.label}</span>
+                <h2>{activeSeason.platform}</h2>
+                <p>{activeSeason.description}</p>
+              </div>
+              <a className="btn primary" href={activeSeason.cta.url} target="_blank" rel="noopener noreferrer">
+                {activeSeason.cta.label}
+              </a>
+            </div>
+            <ol className="episode-list">
+              {activeSeason.episodes.map((episode) => (
+                <li key={episode.url}>
+                  <a href={episode.url} target="_blank" rel="noopener noreferrer">
+                    {episode.title}
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </article>
+        </div>
+      </section>
+    </main>
+  );
+}
+
+function SobrePage() {
+  return (
+    <main id="conteudo" className="season-page">
+      <section className="season-hero">
+        <div className="container">
+          <span className="eyebrow">Sobre o PullreCast</span>
+          <h1>Podcast brasileiro de tecnologia e inteligência artificial</h1>
+          <p>
+            O PullreCast discute IA sem hype, com casos reais, pensamento crítico
+            e participação ativa da comunidade.
+          </p>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="card-grid">
+            <article className="card">
+              <h2>Posicionamento editorial</h2>
+              <p>
+                Conteúdo para líderes e profissionais que precisam aplicar inteligência artificial
+                no trabalho real, com foco em impacto, risco, custo e resultado.
+              </p>
+            </article>
+            <article className="card">
+              <h2>Temas centrais</h2>
+              <p>
+                IA aplicada, automação, produtividade, governança, carreira em tecnologia, estratégias
+                de adoção e execução orientada a ROI.
+              </p>
+            </article>
+            <article className="card">
+              <h2>Formato do podcast</h2>
+              <p>
+                Temporadas multiplataforma no YouTube, Instagram e Spotify, com episódios independentes
+                e participação recorrente da comunidade.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}
+
+function ContatoPage() {
+  return (
+    <main id="conteudo" className="season-page">
+      <section className="season-hero">
+        <div className="container">
+          <span className="eyebrow">Contato PullreCast</span>
+          <h1>Parcerias, palestras e participação no podcast</h1>
+          <p>
+            Entre em contato para apoiar, anunciar, convidar para eventos ou levar o PullreCast para sua comunidade.
+          </p>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="card-grid">
+            <article className="card card-highlight">
+              <h2>Contato comercial e institucional</h2>
+              <p>Parcerias de marca, mídia, eventos e ações especiais.</p>
+              <a className="btn primary" href="mailto:contato@podcast.ia.br?subject=Parceria PullreCast">
+                contato@podcast.ia.br
+              </a>
+            </article>
+            <article className="card card-highlight">
+              <h2>Comunidade PullreCast</h2>
+              <p>Participe das discussões sobre IA prática e contribua com pautas para próximos episódios.</p>
+              <a className="btn primary" href="https://comece.ia.br" target="_blank" rel="noopener noreferrer">
+                Entrar na comunidade
+              </a>
+            </article>
+            <article className="card card-highlight">
+              <h2>Plataformas oficiais</h2>
+              <p>Acompanhe o podcast em todas as plataformas.</p>
+              <a className="btn primary" href="https://podcast.ia.br" target="_blank" rel="noopener noreferrer">
+                Ouvir no Spotify
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}
+
 export default function App() {
   return (
     <BrowserRouter>
       <ScrollToHash />
+      <RouteSeo />
       <a className="skip-link" href="#conteudo">
         Pular para o conteúdo
       </a>
@@ -1151,6 +1366,9 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/seasons" element={<Seasons />} />
+        <Route path="/episodios" element={<EpisodiosPage />} />
+        <Route path="/sobre" element={<SobrePage />} />
+        <Route path="/contato" element={<ContatoPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>
