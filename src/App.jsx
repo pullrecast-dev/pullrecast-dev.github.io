@@ -1129,8 +1129,62 @@ function Home() {
             </a> */}
           </div>
         </div>
+        <a id="husky" className="section-anchor" />
+        <HuskyPartnershipSection />
       </section>
+      
     </main>
+  );
+}
+
+function HuskyPartnershipSection() {
+  return (
+    <section className="section section-alt">
+      <div className="container">
+        <article className="partnership-panel">
+          <div className="partnership-brand">
+            <img
+              src="/husky/02_husky-by-nomad_digital_fundo-escuro.svg"
+              alt="Logo da Husky by Nomad"
+            />
+          </div>
+
+          <div className="partnership-copy">
+            <span className="tag">Parceiro oficial</span>
+            {/* <h2>Agora o Pullrecast e parceiro da Husky by Nomad!</h2> */}
+            <p>
+              Estamos muito felizes com essa parceria e acreditamos que ela vai
+              ser super promissora para os nossos projetos, e claro, pode ajudar
+              muito voces tambem.
+            </p>
+            <p>
+              Pra começar, queremos convidar vocês a abrirem a conta e receberem
+              seus pagamentos internacionais pela Husky.
+            </p>
+
+            <div className="partnership-offer">
+              <h3>Condição especial com o nosso link</h3>
+              <ul>
+                <li>Taxa zero no 1o pagamento</li>
+                <li>0,5% nos 11 seguintes</li>
+              </ul>
+              <p>Para pagamentos acima de US$ 1.000.</p>
+            </div>
+
+            <div className="cta-row">
+              <a
+                className="btn primary"
+                href="https://husky.io?ref=mtc3mmy"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Abrir conta com benefício
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
   );
 }
 
