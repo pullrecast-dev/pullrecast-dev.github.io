@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-// Adiciona à Temporada 4 (seasonData.s4 em src/App.jsx) os episódios novos do feed RSS.
+// Adiciona no topo da Temporada 4 (seasonData.s4 em src/App.jsx, ordem decrescente)
+// os episódios novos do feed RSS.
 // Uso: npm run episodes            -> atualiza o arquivo
 //      npm run episodes -- --dry-run -> só mostra o que seria adicionado
 import { readFile, writeFile } from "node:fs/promises";
@@ -91,9 +92,12 @@ async function main() {
     return;
   }
 
-  // Garante vírgula após o último item existente antes de inserir
-  let before = src.slice(0, arrEnd).replace(/\}\s*$/, (m) => m.replace("}", "},"));
-  await writeFile(APP_FILE, `${before}\n${entries.join("\n")}${src.slice(arrEnd)}`);
+  // Lista em ordem decrescente: os novos entram no topo, o mais recente primeiro
+  const insertAt = arrStart + "episodes: [".length;
+  await writeFile(
+    APP_FILE,
+    `${src.slice(0, insertAt)}\n${entries.reverse().join("\n")}${src.slice(insertAt)}`
+  );
   console.log(`${fresh.length} episódio(s) adicionados a ${APP_FILE}.`);
 }
 
