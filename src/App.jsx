@@ -379,6 +379,58 @@ const seasonData = {
         title: "#72 - IA para Não Programadores e Podcasters: Um Papo com Marcus Mendes (IA Sob Controle)",
         url: "https://open.spotify.com/episode/6iB4WadBoL9D9TNaWrl1Qj",
       },
+      {
+        title: "#73 - Engenharia da Mente: Como a IA ajudou a organizar as coisas da vida!",
+        url: "https://creators.spotify.com/pod/show/pullrecast/episodes/73---Engenharia-da-Mente-Como-a-IA-ajudou-a-organizar-as-coisas-da-vida-e3g5r5r",
+      },
+      {
+        title: "#74 - De Bandeirinha de Kart a Estrategista em NY: No-Code, Governança e Falhas na IA com Ullisses Caruso",
+        url: "https://open.spotify.com/episode/5tM4b9sl1w6MuS3t2i7ZQs",
+      },
+      {
+        title: "#75 - O Fim do Vídeo Mágico: 60 tentativas e o mito do vídeo gerado por um prompt com Rodrigo Mendes (Rodverse)",
+        url: "https://open.spotify.com/episode/3SyjNe48DGrbaKrFgOHW0B",
+      },
+      {
+        title: "#76 - IA sem estatística é só alucinação? Bioestatística, dados, fundamentos e hype com Regina Faria",
+        url: "https://open.spotify.com/episode/5fCon7FeuY9l2QtRYIDBLu",
+      },
+      {
+        title: "#77 - IA no Mainframe e a Lógica Jurídica: Por que o COBOL não aceita alucinações com Otília Borges",
+        url: "https://open.spotify.com/episode/3gVzjn7Bqg5Y3izfwg9PuI",
+      },
+      {
+        title: "#78 - O Manifesto do Ceticismo: Por que o Prof. Adolfo Neto virou inimigo da IA?",
+        url: "https://open.spotify.com/episode/2wD50zdQ9OC39aj7RsFKad",
+      },
+      {
+        title: "#79 - Terei trabalho em 2029? Surfe a Onda dos Agentes ou Leve um Caldo",
+        url: "https://open.spotify.com/episode/7h2qmPIRjJyYjUsORYW6xP",
+      },
+      {
+        title: "#80 - Vibe-Coding na Prática, a Vingança dos Copywriters e o Fim do \"Chatgepetês\"",
+        url: "https://open.spotify.com/episode/6KXAgxh9squAX7PoLo3X96",
+      },
+      {
+        title: "#81 - IA no Terceiro Setor: Sobrevivência, ROI Social e o Limite da Automação com Leonardo Medeiros",
+        url: "https://open.spotify.com/episode/1pz9SCuNFJdQRYcsRTHeu0",
+      },
+      {
+        title: "#82 - De Volta pra Base: Onde o 'Dev de Prompt' cai e o Engenheiro de Software aparece com Luiz Real",
+        url: "https://open.spotify.com/episode/3J8DYixZwqDvkbLy1ZMsFs",
+      },
+      {
+        title: "#83 - Depois do Hiato: A Nova Onda dos Agentes de IA",
+        url: "https://open.spotify.com/episode/3lU7C6V5gBinXqwdq9XDVm",
+      },
+      {
+        title: "#84 - Os Agênticos e a nova Maratona Agêntica: Por Que o Seu Chatbot Não Escala e Virou um Ralo de Tokens!",
+        url: "https://open.spotify.com/episode/7onQ5CB2w8yxwFdWHLZ4hR",
+      },
+      {
+        title: "#85 - O Fim dos Pilotos: Governança, ROI e a Realidade dos Agentes de IA",
+        url: "https://open.spotify.com/episode/4neCFyZwO3JxzJg9g7ml8L",
+      },
     ]
   }
 };
